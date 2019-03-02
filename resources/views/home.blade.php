@@ -577,7 +577,7 @@
         <div class="container">
           <div class="row d-flex align-items-center">
             <div class="text col-md-6">
-              <p>COPYRIGHT &copy; 2018 MEXICANA DE LUBRICANTES S.A. DE C.V. ALL RIGHTS RESERVED.</p>
+              <p>COPYRIGHT &copy; {{ date("Y") }} MEXICANA DE LUBRICANTES S.A. DE C.V. ALL RIGHTS RESERVED.</p>
             </div>
           </div>
         </div>
