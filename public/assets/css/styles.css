@@ -1,0 +1,246 @@
+.banner-home {
+	padding-top: 105px;
+}
+.banner-home img {
+	width: 100%;
+}
+.caja-txt-home {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	padding-top: 5%;
+}
+.caja-txt-home h2 {
+	font-size: 32px;
+    font-weight: lighter;
+    color: #fff;
+}
+.caja-txt-home-seg {
+	position: absolute;
+	width: 23%;
+	left: 15%;
+	text-align: left;
+	padding-top: 5%;
+	color: #fff;
+} 
+.banner-akron img {
+	width: 100%;
+}
+.caja-txt-home-seg h2 {
+	font-weight: lighter;
+} 
+.caja-txt-home-seg p {
+	font-size: 11px;
+}
+.caja-txt-home-seg span {
+	color: #6cbb08;
+}
+.caja-txt-home-seg a {
+	background-color: #71b90d;
+    padding: 6px 11px;
+    font-size: 12px;
+    color: #fff;
+}
+.caja-campos-home {
+	position: absolute;
+    width: 70%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    padding-top: 33%;
+}
+.caja-campos-home h5 {
+	margin-bottom: 20px;
+	font-size: 20px;
+    font-weight: lighter;
+    color: #fff;
+}
+.caja-campos-home select {
+	width: 100%;
+    padding: 7px 7px;
+}
+.caja-campos-home input {
+	width: 295px;
+    background-color: red;
+    border: none;
+    padding: 9px 7px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #fff;
+}
+.caja-campos-home label {
+	font-size: 12px;
+    color: #fff;
+}
+.txt-produ-d {
+	margin-bottom: 50px;
+	font-weight: lighter;
+}
+.txt-instagram h5 {
+	font-size: 24px;
+    font-weight: lighter;
+    line-height: 50px;
+    color: #fff;
+}
+.txt-instagram img {
+	width: 44px;
+}
+.main-footer span {
+	color: #e31c19;
+}
+.main-footer li a {
+	font-size: 11px !important;
+}
+.align-items-center p {
+	font-size: 11px !important;
+}
+.nbs-flexisel-container {
+	margin-bottom: 60px;
+}
+.padding-pdp {
+	padding-top: 130px;
+}
+.img-pdp img {
+	width: 350px;
+	border: 1px solid #ccc;
+	margin: 10px;
+}
+.caja-txt-home-pdp {
+	position: relative;
+	text-align: left;
+	padding-top: 11%;
+} 
+.caja-txt-home-pdp a {
+	background-color: red;
+    padding: 5px 45px;
+    text-decoration: none;
+    font-size: 11px;
+    color: #fff;
+}
+.caja-txt-home-pdp select {
+	width: 180px;
+	background-color: #e6e6e6;
+    padding: 4px 0;
+}
+.margen-txt-p {
+	margin-right: 16px
+}
+.margen-txt-s {
+	margin-right: 29px
+}
+.caja-txt-home-pdp h2 {
+	font-size: 51px;
+    margin-bottom: 30px;
+}
+.precio-pdp {
+	font-size: 28px;
+}
+.imgs-pdp img {
+	width: 100%;
+}
+#exTab1 .tab-content {
+  background-color: #e6e6e6;
+  padding: 5px 15px;
+  padding-top: 30px;
+  color: #000;
+}
+#exTab1 .nav-pills > li > a {
+	background-color: #0b4d91;
+    border-radius: 0;
+    padding: 7px 18px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+#exTab1 .nav-pills > li > a:hover {
+	background-color: #e6e6e6;
+	color: #000;
+}
+#exTab1 .nav-pills > li.active > a:hover,
+#exTab1 .nav-pills > li.active > a {
+	background-color: #e6e6e6;
+	color: #000;
+}
+.fondo-ficha-t {
+	background-color: #e6e6e6;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+.fondo-ficha-t img {
+	width: 30px;
+}
+.t-ficha {
+	font-size: 19px;
+	font-weight: bold;
+	vertical-align: bottom;
+}
+.padding-ficha {
+	padding: 10px 12px;
+}
+.margen-pdp {
+	margin-left: 15px;
+	font-size: 27px;
+}
+.produ-des {
+	background-color: #0a4b8d;
+	box-shadow: inset -8px -311px 165px 45px #0f2c4a;
+	color: #fff;
+}
+.fondo-menu {
+	background-color: #f5f5f5;
+}
+.txt-menu {
+	font-size: 12px;
+    color: #777;
+}
+header {
+	position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+nav.navbar {
+	background: #000 !important;
+}
+a.navbar-brand img {
+	width: 180px;
+}
+nav.navbar a.nav-link,
+nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover,
+nav.navbar .right-col .search, nav.navbar .right-col a.dropdown-toggle, nav.navbar .right-col .user-link {
+	color: #fff;
+}
+#navbarCollapse ul li a {
+	font-size: 13px;
+}
+#navbarCollapse {
+	margin-top: 15px;
+}
+.caja-img-link img {
+	width: 100%;
+}
+@media screen and (max-width: 720px){
+	.caja-txt-home-seg,
+	.banner-akron img {
+		display: none;
+	}
+	.banner-home h2 {
+		font-size: 15px;
+	}
+	.caja-campos-home {
+		position: relative;
+		padding-top: 10%;
+		text-align: center;
+	}
+	.fondo-akron {
+		background-color: #083a6d;
+		padding-bottom: 30px;
+	}
+	.main-footer {
+		text-align: center;
+	}
+	#exTab1 .nav-pills > li,
+	#exTab1 .nav-pills > li > a {
+		width: 100%;
+	}
+}

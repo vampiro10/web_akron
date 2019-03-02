@@ -1,0 +1,7 @@
+/* your styles go here */
+#banner_akron div:nth-child(2) .form-control{
+    /* background-color: greenyellow !important; */
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: .25rem;
+}
