@@ -1,598 +1,621 @@
 <!DOCTYPE html>
-<html lang="en">
-  
-<!-- Mirrored from demo.bootstrapious.com/hub/1-4-0/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Aug 2018 14:52:41 GMT -->
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Akron</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="all,follow">
-    <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
-    <!-- Font Awesome CSS-->
-    <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
-    <!-- Bootstrap Select-->
-    <link rel="stylesheet" href="assets/vendor/bootstrap-select/css/bootstrap-select.min.css">
-    <!-- Price Slider Stylesheets -->
-    <link rel="stylesheet" href="assets/vendor/nouislider/nouislider.css">
-    <!-- Custom font icons-->
-    <link rel="stylesheet" href="assets/css/custom-fonticons.css">
-    <!-- Google fonts - Poppins-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700">
-    <!-- owl carousel-->
-    <link rel="stylesheet" href="assets/vendor/owl.carousel/assets/owl.carousel.css">
-    <link rel="stylesheet" href="assets/vendor/owl.carousel/assets/owl.theme.default.css">
-    <!-- theme stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.default.css" id="theme-stylesheet">
-    <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="assets/css/custom.css">
+<html class="dark">
+	<head>
+		<!-- Basic -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Favicon-->
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
-    <!-- Modernizr-->
-    <script src="assets/js/modernizr.custom.79639.js"></script>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="assets/js/jquery.flexisel.js"></script>
-    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-  </head>
-  <body>
-    <!-- navbar-->
-    <header class="header">
-      <nav class="navbar navbar-expand-lg">
-        <div class="search-area">
-          <div class="search-area-inner d-flex align-items-center justify-content-center">
-            <div class="close-btn"><i class="icon-close"></i></div>
-            <form action="#">
-              <div class="form-group">
-                <input type="search" name="search" id="search" placeholder="¿Qué estás buscando?">
-                <button type="submit" class="submit"><i class="icon-search"></i></button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="container">  
-          <!-- Navbar Header  --><a href="#" class="navbar-brand"><img src="assets/img/logo_akron.png" alt="..."></a>
-          <button type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
-          <!-- Navbar Collapse -->
-          <div id="navbarCollapse" class="collapse navbar-collapse">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item dropdown"><a id="navbarHomeLink" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link active">PRODUCTOS</a>
-                <ul aria-labelledby="navbarDropdownHomeLink" class="dropdown-menu">
-                  <li><a href="#" class="dropdown-item">Classic Home</a></li>
-                  <li><a href="#" class="dropdown-item">Parallax sections</a></li>
-                  <li><a href="#" class="dropdown-item">Video background </a></li>
-                </ul>
-              </li>
-              <li class="nav-item"><a href="#" class="nav-link">ZONA AKRON</a>
-              </li>
-              <!-- Megamenu-->
-              <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" class="nav-link">INDUSTRIAL</a>
-                <div class="dropdown-menu megamenu">
-                  <div class="row">
-                    <div class="col-lg-9">
-                      <div class="row">
-                        <div class="col-lg-3"><strong class="text-uppercase">Home</strong>
-                          <ul class="list-unstyled">
-                            <li><a href="#">Classic homepage</a></li>
-                            <li><a href="#">Parallax sections <span class="badge badge-success ml-2">New</span></a></li>
-                            <li><a href="#">Video background  <span class="badge badge-success ml-2">New</span></a></li>
-                          </ul><strong class="text-uppercase">Shop</strong>
-                          <ul class="list-unstyled">                                                   
-                            <li><a href="#">Category - left sidebar</a></li>
-                            <li><a href="#">Category - right sidebar</a></li>
-                            <li><a href="#">Category - full width</a></li>
-                            <li><a href="#">Product detail</a></li>
-                          </ul>
-                        </div>
-                        <div class="col-lg-3"><strong class="text-uppercase">Order process</strong>
-                          <ul class="list-unstyled">
-                            <li><a href="#">Shopping cart</a></li>
-                            <li><a href="#">Checkout 1 - Address</a></li>
-                            <li><a href="#">Checkout 2 - Delivery</a></li>
-                            <li><a href="#">Checkout 3 - Payment</a></li>
-                            <li><a href="#">Checkout 4 - Review             </a></li>
-                            <li><a href="#">Checkout 5 - Confirmation             </a></li>
-                          </ul><strong class="text-uppercase">Blog</strong>
-                          <ul class="list-unstyled">                                                   
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Post                                                                                           </a></li>
-                          </ul>
-                        </div>
-                        <div class="col-lg-3"><strong class="text-uppercase">Pages</strong>
-                          <ul class="list-unstyled">
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Text page</a></li>
-                            <li><a href="#">FAQ  <span class="badge badge-success ml-2">New</span></a></li>
-                            <li><a href="#">Coming soon  <span class="badge badge-success ml-2">New</span></a></li>
-                            <li><a href="#">Error 404</a></li>
-                            <li><a href="#">Error 500</a></li>
-                          </ul>
-                        </div>
-                        <div class="col-lg-3"><strong class="text-uppercase">Customer</strong>
-                          <ul class="list-unstyled">
-                            <li><a href="#">Login/sign up</a></li>
-                            <li><a href="#">Orders</a></li>
-                            <li><a href="#">Order detail</a></li>
-                            <li><a href="#">Addresses</a></li>
-                            <li><a href="#">Profile</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="row services-block">
-                        <div class="col-xl-3 col-lg-6 d-flex">
-                          <div class="item d-flex align-items-center">
-                            <div class="icon"><i class="icon-truck text-primary"></i></div>
-                            <div class="text"><span class="text-uppercase">Free shipping &amp; return</span><small>Free Shipping over $300</small></div>
-                          </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 d-flex">
-                          <div class="item d-flex align-items-center">
-                            <div class="icon"><i class="icon-coin text-primary"></i></div>
-                            <div class="text"><span class="text-uppercase">Money back guarantee</span><small>30 Days Money Back</small></div>
-                          </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 d-flex">
-                          <div class="item d-flex align-items-center">
-                            <div class="icon"><i class="icon-headphones text-primary"></i></div>
-                            <div class="text"><span class="text-uppercase">020-800-456-747</span><small>24/7 Available Support</small></div>
-                          </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 d-flex">
-                          <div class="item d-flex align-items-center">
-                            <div class="icon"><i class="icon-secure-shield text-primary"></i></div>
-                            <div class="text"><span class="text-uppercase">Secure Payment</span><small>Secure Payment</small></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-3 text-center product-col hidden-lg-down"><a href="detail.html" class="product-image"><img src="assets/img/shirt.png" alt="..." class="img-fluid"></a>
-                      <h6 class="text-uppercase product-heading"><a href="detail.html">Lose Oversized Shirt</a></h6>
-                      <ul class="rate list-inline">
-                        <li class="list-inline-item"><i class="fa fa-star-o text-primary"></i></li>
-                        <li class="list-inline-item"><i class="fa fa-star-o text-primary"></i></li>
-                        <li class="list-inline-item"><i class="fa fa-star-o text-primary"></i></li>
-                        <li class="list-inline-item"><i class="fa fa-star-o text-primary"></i></li>
-                        <li class="list-inline-item"><i class="fa fa-star-o text-primary"></i></li>
-                      </ul><strong class="price text-primary">$65.00</strong><a href="#" class="btn btn-template wide">Add to cart</a>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <!-- /Megamenu end-->
-              <!-- Multi level dropdown    -->
-              <li class="nav-item dropdown"><a id="navbarDropdownMenuLink" href="http://example.com/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">DISTRIBUIDORES</a>
-                <ul aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
-                  <li><a href="#" class="dropdown-item">Action</a></li>
-                  <li><a href="#" class="dropdown-item">Another action</a></li>
-                  <li class="dropdown-submenu"><a id="navbarDropdownMenuLink2" href="http://example.com/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">Dropdown link<i class="fa fa-angle-down"></i></a>
-                    <ul aria-labelledby="navbarDropdownMenuLink2" class="dropdown-menu">
-                      <li><a href="#" class="dropdown-item">Action</a></li>
-                      <li class="dropdown-submenu"><a id="navbarDropdownMenuLink3" href="http://example.com/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">
-                          Another action<i class="fa fa-angle-down"></i></a>
-                        <ul aria-labelledby="navbarDropdownMenuLink3" class="dropdown-menu">
-                          <li><a href="#" class="dropdown-item">Action</a></li>
-                          <li><a href="#" class="dropdown-item">Action</a></li>
-                          <li><a href="#" class="dropdown-item">Action</a></li>
-                          <li><a href="#" class="dropdown-item">Action</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="#" class="dropdown-item">Something else here</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <!-- Multi level dropdown end-->
-              <li class="nav-item"><a href="blog.html" class="nav-link">ACTITUD ABSOLUTA </a>
-              </li>
-            </ul>
-            <div class="right-col d-flex align-items-lg-center flex-column flex-lg-row">
-              <!-- Search Button-->
-              <div class="search"><i class="icon-search"></i></div>
-              <!-- User Not Logged - link to login page-->
-              <div class="user"> <a id="userdetails" href="customer-login.html" class="user-link"><i class="icon-profile">                   </i></a></div>
-              <!-- Cart Dropdown-->
-              <div class="cart dropdown show"><a id="cartdetails" href="https://example.com/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="icon-cart"></i>
-                  <div class="cart-no">1</div></a><a href="cart.html" class="text-primary view-cart">View Cart</a>
-                <div aria-labelledby="cartdetails" class="dropdown-menu">
-                  <!-- cart item-->
-                  <div class="dropdown-item cart-product">
-                    <div class="d-flex align-items-center">
-                      <div class="img"><img src="assets/img/hoodie-man-1.png" alt="..." class="img-fluid"></div>
-                      <div class="details d-flex justify-content-between">
-                        <div class="text"> <a href="#"><strong>Heather Gray Hoodie</strong></a><small>Quantity: 1 </small><span class="price">$75.00 </span></div><a href="#" class="delete"><i class="fa fa-trash-o"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- total price-->
-                  <div class="dropdown-item total-price d-flex justify-content-between"><span>Total</span><strong class="text-primary">$75.00</strong></div>
-                  <!-- call to actions-->
-                  <div class="dropdown-item CTA d-flex"><a href="cart.html" class="btn btn-template wide">View Cart</a><a href="checkout1.html" class="btn btn-template wide">Checkout</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
+		<title>Akron - Inicio</title>	
 
-    <!-- Hero Section-->
-    <section class="hero hero-home no-padding">
-      <!-- Hero Slider-->
-      <div class="">
-        <div class="banner-home" class="item d-flex align-items-center has-pattern">
-          <div class="caja-txt-home">
-            <div class="row">
-              <div class="col-lg-12 text-center">
-                <h2>TU MUNDO EN MOVIMIENTO</h2>
-              </div>
-            </div>
-          </div>
-          <img src="assets/img/Home_banner_superior.jpg" alt="">
-        </div>
-      </div>
-    </section>
+		<meta name="keywords" content="Akron akron aceite automoviles" />
+		<meta name="description" content="Akron aceites ">
+		<meta name="author" content="okler.net">
 
-    <section class="blog gray-bg">
-      <div class="container">
-        <div class="row">
-          <!-- post-->
-          <div class="col-lg-6">
-            <div class="post post-gray d-flex align-items-center flex-md-row flex-column caja-img-link">
-              <img src="assets/img/img-1.jpg" alt="...">
-              <!--<div class="info"> 
-                <h4 class="h5"> <a href="post.html">Newest photo apps          </a></h4><span class="date"><i class="fa fa-clock-o"></i>May 10th 2016</span>
-                <p>ellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Aenean ultricies mi vitae est. </p><a href="post.html" class="read-more">Read More<i class="fa fa-long-arrow-right"></i></a>
-              </div>-->
-            </div>
-          </div>
-          <!-- /end post-->
-          <!-- post-->
-          <div class="col-lg-6">
-            <div class="post post-gray d-flex align-items-center flex-md-row flex-column caja-img-link">
-              <img src="assets/img/img-2.jpg" alt="...">
-              <!--<div class="info"> 
-                <h4 class="h5"> <a href="post.html">Best books about Photography</a></h4><span class="date"><i class="fa fa-clock-o"></i>May 10th 2016</span>
-                <p>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.  Mauris placerat eleifend leo.</p><a href="post.html" class="read-more">Read More<i class="fa fa-long-arrow-right"></i></a>
-              </div>-->
-            </div>
-            <div class="row">
-	            <div class="col-lg-6">
-		            <div class="post post-gray d-flex align-items-center flex-md-row flex-column caja-img-link">
-		              <img src="assets/img/img-3.jpg" alt="...">
-		              <!--<div class="info"> 
-		                <h4 class="h5"> <a href="post.html">Best books about Photography</a></h4><span class="date"><i class="fa fa-clock-o"></i>May 10th 2016</span>
-		                <p>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.  Mauris placerat eleifend leo.</p><a href="post.html" class="read-more">Read More<i class="fa fa-long-arrow-right"></i></a>
-		              </div>-->
-		            </div>
-		        </div>
-		        <div class="col-lg-6">
-		            <div class="post post-gray d-flex align-items-center flex-md-row flex-column caja-img-link">
-		              <img src="assets/img/img-4.jpg" alt="...">
-		              <!--<div class="info"> 
-		                <h4 class="h5"> <a href="post.html">Best books about Photography</a></h4><span class="date"><i class="fa fa-clock-o"></i>May 10th 2016</span>
-		                <p>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.  Mauris placerat eleifend leo.</p><a href="post.html" class="read-more">Read More<i class="fa fa-long-arrow-right"></i></a>
-		              </div>-->
-		            </div>
-		        </div>
-	        </div>
-          </div>
-          <!-- /end post-->
-        </div>
-      </div>
-    </section>
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="assets/img/favicon.ico">
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 
-    <section>
-      <div class="container">
-      	<div class="row align-items-center">
-        <h5 class="txt-produ-d">PRODUCTOS NUEVOS</h5>
-	        <ul id="produ-nuevo">
-	            <li>
-	            	<img src="assets/img/img-akron.jpg" />
-	            	<div class="caja-txt">
-		            	<h5>AKRON EURO TTTDIESEL</h5>
-		            	<p>- SINTÉTICO</p>
-		            	<p>- ALTO DESEMPEÑO</p>
-		            	<p>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</p>
-                    </div>
-                    <div class="col-12 btn-comprar">
-                        <button type="button" class="btn btn-danger">Danger</button>
-                    </div>
-	            </li>
-	            <li>
-	            	<img src="assets/img/img-akron.jpg" />
-	            	<div class="caja-txt">
-		            	<h5>AKRON EURO TTTDIESEL</h5>
-		            	<p>- SINTÉTICO</p>
-		            	<p>- ALTO DESEMPEÑO</p>
-		            	<p>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</p>
-	            	</div>
-	            	<div class="col-12 btn-comprar">
-                        <button type="button" class="btn btn-danger">Danger</button>
-                    </div>
-	            </li>
-	            <li>
-	            	<img src="assets/img/img-akron.jpg" />
-	            	<div class="caja-txt">
-		            	<h5>AKRON EURO TTTDIESEL</h5>
-		            	<p>- SINTÉTICO</p>
-		            	<p>- ALTO DESEMPEÑO</p>
-		            	<p>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</p>
-	            	</div>
-	            	<div class="col-12 btn-comprar">
-                        <button type="button" class="btn btn-danger">Danger</button>
-                    </div>
-	            </li>
-	            <li>
-	            	<img src="assets/img/img-akron.jpg" />
-	            	<div class="caja-txt">
-		            	<h5>AKRON EURO TTTDIESEL</h5>
-		            	<p>- SINTÉTICO</p>
-		            	<p>- ALTO DESEMPEÑO</p>
-		            	<p>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</p>
-	            	</div>
-	            	<div class="col-12 btn-comprar">
-                        <button type="button" class="btn btn-danger">Danger</button>
-                    </div>
-	            </li>                                                 
-	        </ul>    
-        </div>
-      </div>
-      <script type="text/javascript">
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        $(window).load(function() {
-            $("#produ-nuevo").flexisel({
-                visibleItems: 4,
-                itemsToScroll: 1,         
-                autoPlay: {
-                    enable: true,
-                    interval: 5000,
-                    pauseOnHover: true
-                }        
-            });   
-        });
-      </script>
-    </section>
+		<!-- Web Fonts  -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
 
-    <section class="hero hero-home no-padding fondo-akron">
-      <!-- Hero Slider-->
-      <div id="banner_akron">
-        <div class="banner-akron" class="item d-flex align-items-center has-pattern">
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="{{ asset('assets/vendor/bootstrapv3.3.7/css/bootstrap.min.css') }} ">
+		<link rel="stylesheet" href="{{ asset('assets/vendor/font-awesome/css/font-awesome.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('assets/vendor/animate/animate.min.css') }} ">
+		<link rel="stylesheet" href="{{ asset('assets/vendor/simple-line-icons/css/simple-line-icons.min.css') }} ">
+		<link rel="stylesheet" href="{{ asset('assets/vendor/owl.carouselv2.1.6/assets/owl.carousel.min.css') }} ">
+        <link rel="stylesheet" href="{{ asset('assets/vendor/owl.carouselv2.1.6/assets/owl.theme.default.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('assets/vendor/magnific-popup/magnific-popup.min.css') }}">
 
-          <div class="caja-txt-home-seg">
-            <div class="row">
-              <div class="col-lg-12">
-                <h6>AUTOMÓVILES Y CAMIONETAS</h6>
-                <h2>AKRON <span>GREENROAD</span></h2>
-                <p>
-                  El primer aditivo ecológico para gasolina y diesel, Reduce emisiones contaminantes y ahorra hasta un 10% de combustible.
-                </p>
-                <a class="" href="">CONOCER MÁS +</a>
-              </div>
-            </div>
-          </div>
+        <!-- Theme CSS -->
+        <link rel="stylesheet" href="{{ asset('assets/css/home/theme.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/css/home/theme-elements.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/css/home/theme-blog.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/css/home/theme-shop.css') }}">
+    
 
-          <div class="caja-campos-home">
-            <div class="row">
-              <div class="col-md-12">
-                <h5>ENCUENTRA EL ACEITE ÓPTIMO PARA TU AUTO</h5>
-              </div>
-              <div class="col-md-4 text-left">
-                <label>MARCA</label>
-                <select class="form-control">
-                    <option>Default select</option>
-                </select>
-              </div>
-              <div class="col-md-4 text-left">
-                <label>MODELO</label>
-                <select class="form-control">
-                    <option>Default select</option>
-                </select>
-              </div>
-              <div class="col-md-4 text-left">
-                <label>KILOMETRAJE</label>
-                <select class="form-control">
-                    <option>Default select</option>
-                </select>
-              </div>
-              <div class="col-md-12 text-center">
-                <input type="submit" class="btn btn-danger" name="" value="BUSCAR">
-              </div>
-            </div>
-          </div>
+        <!-- Current Page CSS -->
+        <link rel="stylesheet" href="{{ asset('assets/vendor/rs-plugin/css/settings.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/vendor/rs-plugin/css/layers.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/vendor/rs-plugin/css/navigation.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/vendor/circle-flip-slideshow/css/component.css') }}">
 
-          <img src="assets/img/home_banner-central.png" alt="">
-        </div>
-      </div>
-    </section>
+        <!-- Skin CSS -->
+        <link rel="stylesheet" href="{{ asset('assets/css/skins/default.css') }}">
 
-    <section>
-      <div class="container">
-      	<div class="row">
-        <h5 class="txt-produ-d">PRODUCTOS DESTACADOS</h5>
-	        <ul id="produ-destacados">
-	            <li>
-	            	<img src="assets/img/img-akron.jpg" />
-	            	<div class="caja-txt">
-		            	<h5>AKRON EURO TTTDIESEL</h5>
-		            	<p>- SINTÉTICO</p>
-		            	<p>- ALTO DESEMPEÑO</p>
-		            	<p>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</p>
-	            	</div>
-	            	<div class="col-12 btn-comprar">
-                        <button type="button" class="btn btn-danger">Danger</button>
-                    </div>
-	            </li>
-	            <li>
-	            	<img src="assets/img/img-akron.jpg" />
-	            	<div class="caja-txt">
-		            	<h5>AKRON EURO TTTDIESEL</h5>
-		            	<p>- SINTÉTICO</p>
-		            	<p>- ALTO DESEMPEÑO</p>
-		            	<p>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</p>
-	            	</div>
-	            	<div class="col-12 btn-comprar">
-                        <button type="button" class="btn btn-danger">Danger</button>
-                    </div>
-	            </li>
-	            <li>
-	            	<img src="assets/img/img-akron.jpg" />
-	            	<div class="caja-txt">
-		            	<h5>AKRON EURO TTTDIESEL</h5>
-		            	<p>- SINTÉTICO</p>
-		            	<p>- ALTO DESEMPEÑO</p>
-		            	<p>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</p>
-	            	</div>
-	            	<div class="col-12 btn-comprar">
-                        <button type="button" class="btn btn-danger">Danger</button>
-                    </div>
-	            </li>
-	            <li>
-	            	<img src="assets/img/img-akron.jpg" />
-	            	<div class="caja-txt">
-		            	<h5>AKRON EURO TTTDIESEL</h5>
-		            	<p>- SINTÉTICO</p>
-		            	<p>- ALTO DESEMPEÑO</p>
-		            	<p>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</p>
-	            	</div>
-	            	<div class="col-12 btn-comprar">
-                        <button type="button" class="btn btn-danger">Danger</button>
-                    </div>
-	            </li>                                                 
-	        </ul>    
-        </div>
-      </div>
-      <script type="text/javascript">
+		<!-- Theme Custom CSS -->
+        <link rel="stylesheet" href="{{ asset('assets/css/home/custom.css') }}">
 
-        $(window).load(function() {
-            $("#produ-destacados").flexisel({
-                visibleItems: 4,
-                itemsToScroll: 1,         
-                autoPlay: {
-                    enable: true,
-                    interval: 5000,
-                    pauseOnHover: true
-                }        
-            });
-        });
-      </script>
-    </section>
+		<!-- Head Libs -->
+		<script src="assets/vendor/modernizr/modernizr.min.js"></script>
 
-    <section class="fondo-inferior">
-      <div class="container">
-      	<div class="row">
-        <div class="col-12 text-center txt-instagram">
-          <img src="assets/img/icon-instagram.png" alt="">
-          <h5>INSTAGRAM</h5>
-        </div>
-	        <ul id="instagram">
-	            <li>
-	            	<img src="assets/img/insta-1.jpg" />
-	            </li>
-	            <li>
-	            	<img src="assets/img/insta-2.jpg" />
-	            </li>
-	            <li>
-	            	<img src="assets/img/insta-3.jpg" />
-	            </li>
-	            <li>
-	            	<img src="assets/img/insta-4.jpg" />
-	            </li>
-	            <li>
-	            	<img src="assets/img/insta-2.jpg" />
-	            </li>                                                 
-	        </ul>    
-        </div>
-      </div>
-      <script type="text/javascript">
+	</head>
+	<body>
+		<div class="body">
+			<header  id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 57, 'stickySetTop': '-57px', 'stickyChangeLogo': true}">
+				<div class="header-body">
+					<div class="header-container container">
+						<div class="header-row">
+							<div class="header-column">
+								<div class="header-logo">
+									<a href="#">
+										<img alt="Akron" width="111" height="54" data-sticky-width="82" data-sticky-height="40" data-sticky-top="33" src="assets/img/logo_akron_bco222x108.png">
+									</a>
+								</div>
+							</div>
+							<div class="header-column">
+								<div class="header-row">
+									<div class="header-search hidden-xs">
+										<form id="searchForm" action="page-search-results.html" method="get">
+											<div class="input-group">
+												<input type="text" class="form-control" name="q" id="q" placeholder="Search..." required>
+												<span class="input-group-btn">
+													<button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+												</span>
+											</div>
+										</form>
+									</div>
+									<nav class="header-nav-top">
+										<ul class="nav nav-pills">
+											
+											<li>
+												<a href="tel:+3331340500"><span class="ws-nowrap"><i class="fa fa-phone"></i> (33) 3134-0500</span></a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+								<div class="header-row">
+									<div class="header-nav">
+										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main">
+											<i class="fa fa-bars"></i>
+										</button>
+										
+										<div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1 collapse">
+											<nav>
+												<ul class="nav nav-pills" id="mainNav">
+													<li class="dropdown active">
+														<a class="dropdown-toggle" href="index.html">
+															Productos
+														</a>
+														<ul class="dropdown-menu">
+															
+															<li class="dropdown-submenu">
+																<a href="#">Automoviles y camionetas</a>
+																<ul class="dropdown-menu">
+																	<li><a href="#" data-thumb-preview="assets/img/img_home/img/slides/aceite500x370.png">Aceites</a></li>
+																	<li><a href="index-classic-color.html" data-thumb-preview="assets/img/img_home/img/previews/preview-classic-color.jpg">Aditivos de combustible</a></li>
+																	<li><a href="index-classic-light.html" data-thumb-preview="assets/img/img_home/img/previews/preview-classic-light.jpg">Especialidades automotrices</a></li>
+																	<li><a href="index-classic-video.html" data-thumb-preview="assets/img/img_home/img/previews/preview-classic-video.jpg">Cuidado exterior</a></li>
+																	<li><a href="index-classic-video-light.html" data-thumb-preview="assets/img/img_home/img/previews/preview-classic-video-light.jpg">Transmisiones</a></li>
+																	<li><a href="index-classic-video-light.html" data-thumb-preview="assets/img/img_home/img/previews/preview-classic-video-light.jpg">Anticongelantes</a></li>
+																</ul>
+															</li>
+															<li>
+																<a href="#">
+																	Motocicletas
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Marino recreativo
+																</a>
+															</li>
+															<li class="dropdown-submenu">
+																<a href="index-corporate.html">Carga y transporte </a>
+																<ul class="dropdown-menu">
+																	<li><a href="index-corporate.html" data-thumb-preview="assets/img/img_home/img/previews/preview-classic-video-light.jpg">Diesel</a></li>
+																	<li><a href="index-corporate-2.html" data-thumb-preview="assets/img/img_home/img/previews/preview-classic-video-light.jpg">Engranes y transmisiones</a></li>
+																	<li><a href="index-corporate-3.html" data-thumb-preview="assets/img/img_home/img/previews/preview-classic-video-light.jpg">Especialidades diesel</a></li>
+																	
+																</ul>
+															</li>
+															<li>
+																<a href="#">
+																	Grasas lubricantes
+																</a>
+															</li>
+															<li>
+																<a href="#">
+																	Actitud absoluta 
+																</a>
+															</li>
+														</ul>
+													</li>
+													<li class="">
+														<a href="#">
+															Industria
+														</a>
+													</li>
+													<li class="">
+														<a href="#">
+															Técnologia
+														</a>
+													</li>
+													<li class="">
+														<a href="#">
+															Zona akron 
+														</a>
+													</li>
+													<li class="">
+														<a href="#">
+															Conócenos
+														</a>
+													</li>
+													<li class="">
+														<a href="#">
+															Quiero ser distribuidor
+														</a>
+													</li>
+													<li class="">
+														<a href="#">
+															Dónde comprar 
+														</a>
+													</li>
+													<li class="">
+														<a href="#">
+															Blog
+														</a>
+													</li>
+													<li class="">
+														<a href="#">
+															Contacto
+														</a>
+													</li>
+													
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
 
-        $(window).load(function() {
-            $("#instagram").flexisel({
-                visibleItems: 4,
-                itemsToScroll: 1,         
-                autoPlay: {
-                    enable: true,
-                    interval: 5000,
-                    pauseOnHover: true
-                }        
-            });
-        });
-      </script>
-    </section>
+			<div role="main" class="main">
+				<div class="slider-container rev_slider_wrapper" style="height: 700px;">
+					<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 800, 'gridheight': 700}">
+						<ul>
+							<li data-transition="fade"> {{--Marca --}}
+								<img src="assets/img/img_home/img/slides/marca.jpg"  
+									alt=""
+									data-bgposition="center center" 
+									data-bgfit="cover" 
+									data-bgrepeat="no-repeat" 
+									class="rev-slidebg">
+								
 
-    <!-- Footer-->
-    <footer class="main-footer">
-      <!-- Main Block -->
-      <div class="main-block">
-        <div class="container">
-          <div class="row">
-            <div class="info col-md-3">
-              <span>¿QUIÉNES SOMOS?</span>
-              <ul class="social-menu list-inline">
-                <li class=""><a href="#" target="_blank" title="">- AUTOMÓVILES Y CAMIONETAS</a></li>
-                <li class=""><a href="#" target="_blank" title="">- MOTOCICLETAS</a></li>
-                <li class=""><a href="#" target="_blank" title="">- MARINO CREATIVO</a></li>
-                <li class=""><a href="#" target="_blank" title="">- CARGA Y TRANSPORTE</a></li>
-                <li class=""><a href="#" target="_blank" title="">- INDUSTRIAL</a></li>
-              </ul>
-            </div>
-            <div class="site-links col-md-3">
-              <span>POLÍTICAS</span>
-              <ul class="list-unstyled">
-                <li> <a href="#">- AVISO DE PRIVACIDAD</a></li>
-                <li> <a href="#">- ENVÍOS Y DEVOLUCIÓN</a></li>
-                <li> <a href="#">- TERMINOS Y CONDICIONES</a></li>
-                <li> <a href="#">- PREGUNTAS FRECUENTES</a></li>
-              </ul>
-            </div>
-            <div class="site-links col-md-3">
-              <span>INFORMACIÓN</span>
-              <ul class="list-unstyled">
-                <li> <a href="#">- ZONA AKRON</a></li>
-                <li> <a href="#">- DONDE COMPRAR</a></li>
-                <li> <a href="#">- BLOG</a></li>
-                <li> <a href="#">- EMPRESA</a></li>
-                <li> <a href="#">- CONTACTO</a></li>
-              </ul>
-            </div>
-            <div class="newsletter col-md-3">
-              <img src="assets/img/logo_akron.png" alt="">
-              <ul class="list-unstyled icons-social">
-                <li class="list-inline-item"><a href="#"><img src="assets/img/FB.png" alt=""></a></li>
-                <li class="list-inline-item"><a href="#"><img src="assets/img/instagram.png" alt=""></a></li>
-                <li class="list-inline-item"><a href="#"><img src="assets/img/tw.png" alt=""></a></li>
-                <li class="list-inline-item"><a href="#"><img src="assets/img/youtube.png" alt=""></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="copyrights">
-        <div class="container">
-          <div class="row d-flex align-items-center">
-            <div class="text col-md-6">
-              <p>COPYRIGHT &copy; {{ date("Y") }} MEXICANA DE LUBRICANTES S.A. DE C.V. ALL RIGHTS RESERVED.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- JavaScript files-->
-    <script src="assets/vendor/popper.js/umd/popper.min.js"> </script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/vendor/jquery.cookie/jquery.cookie.js"> </script>
-    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-    <script src="assets/vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js"></script>
-    <script src="assets/vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
-    <script src="assets/vendor/nouislider/nouislider.min.js"></script>
-    <script src="assets/vendor/jquery-countdown/jquery.countdown.min.js"></script>
-    <!-- Main Template File-->
-    <script src="assets/js/front.js"></script>
-  </body>
+								<a class="tp-caption btn btn-lg btn-primary btn-slider-action"
+									data-hash
+									data-hash-offset="85"
+									href="#home-intro"
+									data-x="center" data-hoffset="0"
+									data-y="center" data-voffset="80"
+									data-start="500"
+									data-whitespace="nowrap"						 
+									data-transform_in="y:[100%];s:500;"
+									data-transform_out="opacity:0;s:500;"
+									style="z-index: 5"
+									data-mask_in="x:0px;y:0px;">Ir</a>
+								
+							</li>
+							<li data-transition="fade"> {{--Servicio --}}
+								<img src="assets/img/img_home/img/slides/servicio.jpg"  
+									alt=""
+									data-bgposition="center center" 
+									data-bgfit="cover" 
+									data-bgrepeat="no-repeat" 
+									class="rev-slidebg">
+								
+
+								<a class="tp-caption btn btn-lg btn-primary btn-slider-action"
+									data-hash
+									data-hash-offset="85"
+									href="#home-intro"
+									data-x="center" data-hoffset="0"
+									data-y="center" data-voffset="80"
+									data-start="500"
+									data-whitespace="nowrap"						 
+									data-transform_in="y:[100%];s:500;"
+									data-transform_out="opacity:0;s:500;"
+									style="z-index: 5"
+									data-mask_in="x:0px;y:0px;">Ir</a>
+								
+							</li>
+							<li data-transition="fade"> {{--Chivas --}}
+								<img src="assets/img/img_home/img/slides/gchivas.jpg"  
+									alt=""
+									data-bgposition="center center" 
+									data-bgfit="cover" 
+									data-bgrepeat="no-repeat" 
+									class="rev-slidebg">
+								
+
+								<a class="tp-caption btn btn-lg btn-primary btn-slider-action"
+									data-hash
+									data-hash-offset="85"
+									href="#home-intro"
+									data-x="center" data-hoffset="0"
+									data-y="center" data-voffset="80"
+									data-start="500"
+									data-whitespace="nowrap"						 
+									data-transform_in="y:[100%];s:500;"
+									data-transform_out="opacity:0;s:500;"
+									style="z-index: 5"
+									data-mask_in="x:0px;y:0px;">Ir</a>
+								
+							</li>
+							<li data-transition="fade"> {{--Aceites --}}
+								<img src="assets/img/img_home/img/slides/aceites.jpg"  
+									alt=""
+									data-bgposition="center center" 
+									data-bgfit="cover" 
+									data-bgrepeat="no-repeat" 
+									class="rev-slidebg">
+								
+
+								<a class="tp-caption btn btn-lg btn-primary btn-slider-action"
+									data-hash
+									data-hash-offset="85"
+									href="#home-intro"
+									data-x="center" data-hoffset="0"
+									data-y="center" data-voffset="80"
+									data-start="500"
+									data-whitespace="nowrap"						 
+									data-transform_in="y:[100%];s:500;"
+									data-transform_out="opacity:0;s:500;"
+									style="z-index: 5"
+									data-mask_in="x:0px;y:0px;">Ir</a>
+								
+							</li>
+							<li data-transition="fade"> {{--Greenroad --}}
+								<img src="assets/img/img_home/img/slides/greenroad.jpg"  
+									alt=""
+									data-bgposition="center center" 
+									data-bgfit="cover" 
+									data-bgrepeat="no-repeat" 
+									class="rev-slidebg">
+								
+
+								<a class="tp-caption btn btn-lg btn-primary btn-slider-action"
+									data-hash
+									data-hash-offset="85"
+									href="#home-intro"
+									data-x="center" data-hoffset="0"
+									data-y="center" data-voffset="80"
+									data-start="500"
+									data-whitespace="nowrap"						 
+									data-transform_in="y:[100%];s:500;"
+									data-transform_out="opacity:0;s:500;"
+									style="z-index: 5"
+									data-mask_in="x:0px;y:0px;">Ir</a>
+								
+							</li>
+							<li data-transition="fade"> {{--Motorcycle --}}
+								<img src="assets/img/img_home/img/slides/motorcycle.jpg"  
+									alt=""
+									data-bgposition="center center" 
+									data-bgfit="cover" 
+									data-bgrepeat="no-repeat" 
+									class="rev-slidebg">
+								
+
+								<a class="tp-caption btn btn-lg btn-primary btn-slider-action"
+									data-hash
+									data-hash-offset="85"
+									href="#home-intro"
+									data-x="center" data-hoffset="0"
+									data-y="center" data-voffset="80"
+									data-start="500"
+									data-whitespace="nowrap"						 
+									data-transform_in="y:[100%];s:500;"
+									data-transform_out="opacity:0;s:500;"
+									style="z-index: 5"
+									data-mask_in="x:0px;y:0px;">Ir</a>
+								
+							</li>
+
+						</ul>
+					</div>
+				</div>
+				
+				<div class="container">
+					<div class="row mt-xl mb-xl">
+						<div class="col-md-3">
+							<a href="http://extranet.vetterol.com" target="blank_"><img class="img-responsive mt-xl appear-animation" src="assets/img/img_home/img/slides/akron_banner_mexicana_de_lubricantes.png" alt="" data-appear-animation="fadeInLeft"></a>
+						</div>
+						<div class="col-md-9">
+							<h2 class="mt-xl">Mexicana de <strong>Lubricantes</strong></h2>
+							<p>
+								Es una empresa 100% mexicana, líder en venta de lubricantes automotrices e industriales, aditivos y grasas, con avanzada tecnología de producción, instalaciones certificadas, una amplia línea de productos de la más alta calidad y un equipo humano profesional, comprometido a superar las expectativas de los mercados más exigentes.
+						</div>
+					</div>
+				</div>
+
+				<section class="section section-default">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-9">
+								<h2> <strong>Vetterol</strong></h2>
+								<p>
+									Es una empresa 100% mexicana, líder en venta de lubricantes automotrices e industriales, aditivos y grasas, con avanzada tecnología de producción, instalaciones certificadas, una amplia línea de productos de la más alta calidad y un equipo humano profesional, comprometido a superar las expectativas de los mercados más exigentes.
+							</div>
+							<div class="col-md-3">
+								<a href="http://extranet.vetterol.com" target="blank_"><img class="hidden-xs img-responsive appear-animation" style="margin-top: -100px;" src="assets/img/img_home/img/slides/akron_baner_vetterol.png" alt="" data-appear-animation="fadeInRight"></a>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="section section-default-scale-lighten m-none">
+					<div class="container-fluid sample-item-container">
+				
+						<div class="row center">
+							<div class="col-md-12 pb-xlg">
+								<h4 id="font_black" class="mt-xl mb-none font-weight-bold text-uppercase ml-sm">CERTIFICADOS POR:</h4>
+								<p class="mb-xl ml-sm">Las más prestigiadas marcas certifican a AKRON</p>
+							</div>
+				
+						</div>
+				
+						<div id="award" class="row">
+							<ul class="sample-item-list sample-item-list-loaded" data-plugin-masonry data-plugin-options="{'itemSelector': '.isotope-item'}">
+				
+								<li class="col-sm-6 col-md-3 isotope-item">
+									<div class="sample-item sample-item-home pl-md pr-md">
+										<a href="#" target="_blank">
+											<span class="sample-item-image-wrapper">
+												<span class="sample-item-image" data-original="assets/img/img_home/img/slides/500x370img.png" data-plugin-lazyload data-plugin-options="{'appearEffect': 'animated fadeIn'}"></span>
+												<i class="fa fa-spinner fa-spin fa-fw"></i>
+											</span>
+											<span class="sample-item-description">
+												<h5>Porsche</h5>
+											</span>
+										</a>
+									</div>
+								</li>
+				
+								<li class="col-sm-6 col-md-3 isotope-item">
+									<div class="sample-item sample-item-home pl-md pr-md">
+										<a href="#" target="_blank">
+											<span class="sample-item-image-wrapper">
+												<span class="sample-item-image" data-original="assets/img/img_home/img/slides/mercedes.jpg" data-plugin-lazyload data-plugin-options="{'appearEffect': 'animated fadeIn'}"></span>
+												<i class="fa fa-spinner fa-spin fa-fw"></i>
+											</span>
+											<span class="sample-item-description">
+												<h5>Mercedes</h5>
+											</span>
+										</a>
+									</div>
+								</li>
+				
+								<li class="col-sm-6 col-md-3 isotope-item">
+									<div class="sample-item sample-item-home pl-md pr-md">
+										<a href="#" target="_blank">
+											<span class="sample-item-image-wrapper">
+												<span class="sample-item-image" data-original="assets/img/img_home/img/slides/sensor_bmw.jpg" data-plugin-lazyload data-plugin-options="{'appearEffect': 'animated fadeIn'}"></span>
+												<i class="fa fa-spinner fa-spin fa-fw"></i>
+											</span>
+											<span class="sample-item-description">
+												<h5>Home Corporate Version 1</h5>
+											</span>
+										</a>
+									</div>
+								</li>
+				
+								<li class="col-sm-6 col-md-3 isotope-item">
+									<div class="sample-item sample-item-home pl-md pr-md">
+										<a href="#" target="_blank">
+											<span class="sample-item-image-wrapper">
+												<span class="sample-item-image" data-original="assets/img/img_home/img/slides/vw-logo.jpg" data-plugin-lazyload data-plugin-options="{'appearEffect': 'animated fadeIn'}"></span>
+												<i class="fa fa-spinner fa-spin fa-fw"></i>
+											</span>
+											<span class="sample-item-description">
+												<h5>Home Corporate Version 2</h5>
+											</span>
+										</a>
+									</div>
+								</li>
+				
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section class="section section-background section-text-light section-center mt-xl mb-none" style="background-image: url('assets/img/img_home/img/parallax.jpg'); background-position: 50% -100px;">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1">
+								<h2><i class="fa fa-star font-size-xs mr-xs"></i><i class="fa fa-star font-size-xs mr-xs"></i><i class="fa fa-star font-size-xs mr-xs"></i><i class="fa fa-star font-size-xs mr-xs"></i><i class="fa fa-star font-size-xs"></i><br><strong>What Client’s Say</strong></h2>
+								<div class="owl-carousel owl-theme nav-bottom rounded-nav mb-none" data-plugin-options="{'items': 1, 'loop': false}">
+									<div>
+										<div class="col-md-12">
+											<div class="testimonial testimonial-style-2 testimonial-with-quotes mb-none">
+												<blockquote>
+													<p>Outstanding about everything : - Support is fast and perfect : I got answers to every questions I asked. - Code quality is up to date, modern, structured, clear, easy to understand. - Responsive IS responsive (any screen size, smartphone & tablet. - Design is pure and esthetic. - Okler provide update. Thank you Okler team for all of this ! Keep going !</p>
+												</blockquote>
+												<div class="testimonial-author">
+													<p><strong>Gothvel</strong></p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div>
+										<div class="col-md-12">
+											<div class="testimonial testimonial-style-2 testimonial-with-quotes mb-none">
+												<blockquote>
+													<p>This theme is totally customizable, clean with all the options you could want. Don't want full screen layout? With one word added to the code the entire site becomes boxed version... The customer support is absolutely unsurpassed. Can not recommend this enough.</p>
+												</blockquote>
+												<div class="testimonial-author">
+													<p><strong>katefischer510</strong></p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div>
+										<div class="col-md-12">
+											<div class="testimonial testimonial-style-2 testimonial-with-quotes mb-none">
+												<blockquote>
+													<p>The code is extremely well organized, the help information and support is terrific and the options provided by the template are about the most thorough I've found - what more could you ask for?</p>
+												</blockquote>
+												<div class="testimonial-author">
+													<p><strong>sibelius</strong></p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+			</div>
+ 
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="footer-ribbon">
+							<span>Estar en contacto</span>
+						</div>
+						<div class="col-md-3">
+							<div class="newsletter">
+								<h4>Newsletter</h4>
+								<p>Keep up on our always evolving product features and technology. Enter your e-mail and subscribe to our newsletter.</p>
+			
+								<div class="alert alert-success hidden" id="newsletterSuccess">
+									<strong>Success!</strong> You've been added to our email list.
+								</div>
+			
+								<div class="alert alert-danger hidden" id="newsletterError"></div>
+			
+								<form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST">
+									<div class="input-group">
+										<input class="form-control" placeholder="Email Address" name="newsletterEmail" id="newsletterEmail" type="text">
+										<span class="input-group-btn">
+											<button class="btn btn-default" type="submit">Go!</button>
+										</span>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<h4>Latest Tweets</h4>
+							<div id="tweet" class="twitter" data-plugin-tweets data-plugin-options="{'username': '', 'count': 2}">
+								<p>Please wait...</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="contact-details">
+								<h4>Contact Us</h4>
+								<ul class="contact">
+									<li><p><i class="fa fa-map-marker"></i> <strong>Address:</strong> 1234 Street Name, City Name, United States</p></li>
+									<li><p><i class="fa fa-phone"></i> <strong>Phone:</strong> (123) 456-789</p></li>
+									<li><p><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:mail@example.com">mail@example.com</a></p></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<h4>Follow Us</h4>
+							<ul class="social-icons">
+								<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+								<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+								<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container">
+						<div class="row">
+							
+							<div class="col-md-7">
+								<p>© Copyright {{  date("Y") }}. All Rights Reserved.</p>
+							</div>
+							<div class="col-md-4">
+								<nav id="sub-menu">
+									<ul>
+										<li><a href="page-faq.html">FAQ's</a></li>
+										<li><a href="sitemap.html">Sitemap</a></li>
+										<li><a href="contact-us.html">Contact</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<!-- Vendor -->
+		<script src="assets/vendor/jqueryv3.1.1/jquery.min.js"></script>
+		<script src="assets/vendor/jquery.appear/jquery.appear.min.js"></script>
+		<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+		<script src="assets/vendor/jquery.cookie/jquery-cookie.min.js"></script>
+		<script src="assets/vendor/bootstrapv3.3.7/js/bootstrap.min.js"></script>
+		<script src="assets/vendor/common/common.min.js"></script>
+		<script src="assets/vendor/jquery.validation/jquery.validation.min.js"></script>
+		<script src="assets/vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
+		{{-- <script src="vendor/jquery.gmap/jquery.gmap.min.js"></script> --}}
+		<script src="assets/vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+		<script src="assets/vendor/isotope/jquery.isotope.min.js"></script>
+		<script src="assets/vendor/owl.carouselv2.1.6/owl.carousel.min.js"></script>
+		<script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script src="assets/vendor/vide/vide.min.js"></script>
+		
+		<!-- Theme Base, Components and Settings -->
+		<script src="assets/js/theme.js"></script>
+		
+		<!-- Current Page Vendor and Views -->
+		<script src="assets/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+		<script src="assets/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+		<script src="assets/vendor/circle-flip-slideshow/js/jquery.flipshow.min.js"></script>
+		<script src="assets/js/views/view.home.js"></script>
+		
+		<!-- Theme Custom -->
+		{{-- <script src="js/custom.js"></script> para customizar js actualmente no existe codigo 02/03/19  --}}
+		
+		<!-- Theme Initialization Files -->
+		<script src="assets/js/theme.init.js"></script>
+
+		<!-- Examples -->
+		{{-- <script src="js/examples/examples.demos.js"></script> --}}
+
+		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+			ga('create', 'UA-12345678-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+		 -->
+
+	</body>
 </html>
