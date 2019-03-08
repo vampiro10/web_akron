@@ -205,11 +205,12 @@ nav.navbar {
 a.navbar-brand img {
 	width: 180px;
 }
+/* 
 nav.navbar a.nav-link,
 nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover,
 nav.navbar .right-col .search, nav.navbar .right-col a.dropdown-toggle, nav.navbar .right-col .user-link {
-	color: #fff;
-}
+	color: #9055A2;
+} */
 #navbarCollapse ul li a {
 	font-size: 13px;
 }

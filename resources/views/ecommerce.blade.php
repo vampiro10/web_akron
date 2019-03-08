@@ -62,6 +62,7 @@
           <!-- Navbar Collapse -->
           <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="navbar-nav mx-auto">
+              <li class="nav-item "><a href="{{ route('home') }}" class="nav-link">HOME</a>
               <li class="nav-item dropdown"><a id="navbarHomeLink" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link active">PRODUCTOS</a>
                 <ul aria-labelledby="navbarDropdownHomeLink" class="dropdown-menu">
                   <li><a href="#" class="dropdown-item">Classic Home</a></li>
@@ -69,6 +70,7 @@
                   <li><a href="#" class="dropdown-item">Video background </a></li>
                 </ul>
               </li>
+
               <li class="nav-item"><a href="#" class="nav-link">ZONA AKRON</a>
               </li>
               <!-- Megamenu-->
@@ -192,7 +194,7 @@
                 </ul>
               </li>
               <!-- Multi level dropdown end-->
-              <li class="nav-item"><a href="blog.html" class="nav-link">ACTITUD ABSOLUTA </a>
+              <li class="nav-item"><a href="#" class="nav-link">ACTITUD ABSOLUTA </a>
               </li>
             </ul>
             <div class="right-col d-flex align-items-lg-center flex-column flex-lg-row">

@@ -11,10 +11,20 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::view('/', 'home')->name('home');
+Route::view('ecommerce', 'ecommerce')->name('ecommerce');
+Route::view('greenroad', 'greenroad')->name('greenroad');
+Route::view('industrial', 'industrial')->name('industrial');
+Route::view('tecnologia', 'tecnologia')->name('tecnologia');
+Route::view('zona', 'zona')->name('zona');
+Route::view('empresa', 'empresa')->name('empresa');
+Route::view('distribuidor', 'distribuidor')->name('distribuidor');
+Route::view('donde-comprar', 'donde-comprar')->name('donde-comprar');
+Route::view('blog', 'blog')->name('blog');
 
-Route::get('/ecomerce', function () {
-    return view('ecommerce');
-});
+Route::view('contacto', 'contacto')->name('contacto');
+Route::view('zona', 'zona')->name('zona');
+Route::view('zona', 'zona')->name('zona');
+
+
+
