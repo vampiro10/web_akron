@@ -9,7 +9,7 @@
                 <h1>Blog <span>Blog</span></h1>
                 <ul class="breadcrumb breadcrumb-valign-mid">
                     <li><a href="#">Home</a></li>
-                    <li class="active">Blog</li>
+                    <li class="active">Blog test</li>
                 </ul>
             </div>
         </div>
