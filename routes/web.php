@@ -21,10 +21,7 @@ Route::view('empresa', 'empresa')->name('empresa');
 Route::view('distribuidor', 'distribuidor')->name('distribuidor');
 Route::view('donde-comprar', 'donde-comprar')->name('donde-comprar');
 Route::view('blog', 'blog')->name('blog');
-
 Route::view('contacto', 'contacto')->name('contacto');
-Route::view('zona', 'zona')->name('zona');
-Route::view('zona', 'zona')->name('zona');
 
 
 
