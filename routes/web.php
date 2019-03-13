@@ -11,8 +11,8 @@
 |
 */
 
-Route::view('/', 'home')->name('home');
-Route::view('ecommerce', 'ecommerce')->name('ecommerce');
+Route::view('/', 'homev2')->name('home');
+
 Route::view('greenroad', 'greenroad')->name('greenroad');
 Route::view('industrial', 'industrial')->name('industrial');
 Route::view('tecnologia', 'tecnologia')->name('tecnologia');

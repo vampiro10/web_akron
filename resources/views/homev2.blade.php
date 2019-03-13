@@ -31,6 +31,9 @@
 
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
+     <!-- Custom stylesheet - for your changes-->
+     <link rel="stylesheet" href="assets/css/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="assets/img/favicon.ico">
     <!-- Modernizr-->
@@ -62,8 +65,59 @@
           <!-- Navbar Collapse -->
           <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="navbar-nav mx-auto">
-              <li class="nav-item "><a href="{{ route('home') }}" class="nav-link">HOME</a>
-              <li class="nav-item dropdown"><a id="navbarHomeLink" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link active">PRODUCTOS</a>
+              <li class="nav-item "><a href="{{ route('home') }}" class="nav-link active">Inicio</a>
+              <!-- Megamenu Productos-->
+              <li class="nav-item dropdown "><a href="#" data-toggle="dropdown" class="nav-link">Productos</a>
+                <div id="products" class="dropdown-menu megamenu">
+                  <div class="row">
+                    <div class="col-md-4 product-col ">
+                      <div class="row">
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                            <div class="row"><h4>Akron </h4></div>
+                            <div class="row"><h5 class="green">Greenroad</h5></div>
+                            <div class="row">
+                              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. quod beatae rerum eligendi soluta amet? Vero dolores saepe sit, optio quam debitis dolorum.</p>
+                            </div>
+                            <button type="button" class="btn btn-outline-success">Conocer más <i class="fa fa-plus" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 "> 
+                          <img id="mt-19em" class="img-fluid" src="{{asset('assets/img/greenroad/green.png')}}" alt="green road">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 product-col">
+                      <div class="col-md-12"><strong class="text-uppercase">Categorías de Productos</strong>
+                        <ul class="list-unstyled">
+                          <li><a href="#">Automoviles y camionetas</a></li>
+                          <li><a href="#">Motocicletas<span class="badge badge-success ml-2">New</span></a></li>
+                          <li><a href="#">Marino creativo <span class="badge badge-success ml-2">New</span></a></li>
+                          <li><a href="#">Carga y transporte <span class="badge badge-success ml-2">New</span></a></li>
+                          <li><a href="#">Industrial<span class="badge badge-success ml-2">New</span></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="col-md-12"><strong class="text-uppercase">Tipos de productos</strong>
+                        <ul class="list-unstyled">
+                          <li><a href="#">Aceites </a></li>
+                          <li><a href="#">Aditivos de combustible<span class="badge badge-success ml-2">New</span></a></li>
+                          <li><a href="#">Anticongelantes <span class="badge badge-success ml-2">New</span></a></li>
+                          <li><a href="#">Cuidado exterior </a></li>
+                          <li><a href="#">Diesel </a></li>
+                          <li><a href="#">Engranes y transmisores  </a></li>
+                          <li><a href="#">Especialidades automotrices </a></li>
+                          <li><a href="#">Especialidades diesel </a></li>
+                          <li><a href="#">Grasas lubricantes </a></li>
+                          <li><a href="#">Transmisiones </a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </li>
+              <!-- /Megamenu end Productos-->
+              <li class="nav-item dropdown"><a id="navbarHomeLink" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link ">Gasolinera </a>
                 <ul aria-labelledby="navbarDropdownHomeLink" class="dropdown-menu">
                   <li><a href="#" class="dropdown-item">Classic Home</a></li>
                   <li><a href="#" class="dropdown-item">Parallax sections</a></li>
@@ -71,8 +125,42 @@
                 </ul>
               </li>
 
-              <li class="nav-item"><a href="#" class="nav-link">ZONA AKRON</a>
+              <!-- Megamenu Servicios-->
+              <li class="nav-item dropdown "><a href="#" data-toggle="dropdown" class="nav-link">Servicios</a>
+                <div id="service" class="dropdown-menu megamenu ">
+                  <div class="row">
+                    <div class="col-md-6 product-col ">
+                      <div class="row">
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                            <div class="row"><h4>Akron </h4></div>
+                            <div class="row"><h5 class="green">Greenroad</h5></div>
+                            <div class="row">
+                              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. quod beatae rerum eligendi soluta amet? Vero dolores saepe sit, optio quam debitis dolorum.</p>
+                            </div>
+                            <button type="button" class="btn btn-outline-success">Conocer más <i class="fa fa-plus" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 "> 
+                          <img id="mt-19em" class="img-fluid" src="{{asset('assets/img/greenroad/green.png')}}" alt="green road">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 ">
+                      <div class="col-md-12"><strong class="text-uppercase">Nuestros servicios</strong>
+                        <ul class="list-unstyled">
+                          <li><a href="#">Automoviles y camionetas</a></li>
+                          <li><a href="#">Motocicletas<span class="badge badge-success ml-2">New</span></a></li>
+                          <li><a href="#">Marino creativo <span class="badge badge-success ml-2">New</span></a></li>
+                          <li><a href="#">Carga y transporte <span class="badge badge-success ml-2">New</span></a></li>
+                          <li><a href="#">Industrial<span class="badge badge-success ml-2">New</span></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
               </li>
+              <!-- /Megamenu end Servicios-->
+
               <!-- Megamenu-->
               <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" class="nav-link">INDUSTRIAL</a>
                 <div class="dropdown-menu megamenu">

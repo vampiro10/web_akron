@@ -1,6 +1,6 @@
-.banner-home {
+/* .banner-home {
 	padding-top: 105px;
-}
+} */
 .banner-home img {
 	width: 100%;
 }
@@ -195,7 +195,7 @@
     color: #777;
 }
 header {
-	position: fixed;
+	/* position: fixed; */
     width: 100%;
     z-index: 99999;
 }

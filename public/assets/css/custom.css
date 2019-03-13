@@ -5,3 +5,23 @@
     background-clip: padding-box;
     border-radius: .25rem;
 }
+
+#mt-19em {
+    margin-top: 11em;
+    /* background: greenyellow; */
+}
+
+@media (max-width: 992px){
+    #mt-19em {
+        margin-top: 1em;
+    }
+}
+
+.green{
+    color: greenyellow ;
+}
+
+#service  p , #products p {
+    color: white;
+    /* background: greenyellow; */
+}
