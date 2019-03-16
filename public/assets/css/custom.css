@@ -36,3 +36,8 @@ a[class="btn btn-outline-danger btn-block"]:hover {
     color: #fff !important;
     background: #dc3545 !important;
 }
+
+a[class="btn btn-outline-success"] {
+    color: #28a745 !important;
+}
+

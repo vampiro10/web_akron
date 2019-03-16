@@ -2,5 +2,5 @@
 
 @section('contenido')
 
-<h1 class="text-dark" > Mi cuenta </h1>
+<h1 class="text-dark">Gasolinera</h1>
 @stop

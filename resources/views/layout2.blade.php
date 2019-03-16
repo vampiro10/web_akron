@@ -61,7 +61,7 @@
                 </div>
                 </div>
                 <div class="container">  
-                <!-- Navbar Header  --><a href="#" class="navbar-brand"><img src="assets/img/logo_akron.png" alt="..."></a>
+                <!-- Navbar Header  --><a href="{{ route('home') }}" class="navbar-brand"><img src="assets/img/logo_akron.png" alt="..."></a>
                 <button type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
                 <!-- Navbar Collapse -->
                 <div id="navbarCollapse" class="collapse navbar-collapse">
@@ -69,7 +69,7 @@
 
                         <li class="nav-item "><a href="{{ route('home') }}" class="nav-link {{ activeMenu('/')}}">Inicio</a>
                         <!-- Megamenu Productos-->
-                        <li id="dp" class="nav-item dropdown "><a href="{{ route('productos') }}" class="nav-link {{ activeMenu('productos')}}">Productos</a>
+                        <li  id="dp" class="nav-item dropdown "><a href="{{ route('productos') }}" disabled="disabled" class="nav-link {{ activeMenu('productos')}}">Productos</a>
                             <div id="products" class="dropdown-menu megamenu">
                             <div class="row">
                                 <div class="col-md-4 product-col ">
@@ -80,7 +80,8 @@
                                         <div class="row">
                                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. quod beatae rerum eligendi soluta amet? Vero dolores saepe sit, optio quam debitis dolorum.</p>
                                         </div>
-                                        <button type="button" class="btn btn-outline-success">Conocer más <i class="fa fa-plus" aria-hidden="true"></i></button>
+                                        
+                                        <a class="btn btn-outline-success" href="{{ route('greenroad') }}" >Conocer más <i class="fa fa-plus" aria-hidden="true"></i></a>
                                     </div>
                                     <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 "> 
                                     <img id="mt-19em" class="img-fluid" src="{{asset('assets/img/greenroad/green.png')}}" alt="green road">
@@ -119,16 +120,11 @@
                             </div>
                         </li>
                         <!-- /Megamenu end Productos-->
-                        <li class="nav-item dropdown"><a id="navbarHomeLink" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link ">Gasolinera </a>
-                            <ul aria-labelledby="navbarDropdownHomeLink" class="dropdown-menu">
-                            <li><a href="#" class="dropdown-item">Classic Home</a></li>
-                            <li><a href="#" class="dropdown-item">Parallax sections</a></li>
-                            <li><a href="#" class="dropdown-item">Video background </a></li>
-                            </ul>
-                        </li>
+
+                        <li class="nav-item "><a href="{{ route('gasolinera') }}" class="nav-link {{ activeMenu('gasolinera')}}">Gasolinera</a>
 
                         <!-- Megamenu Servicios-->
-                        <li id="dp" class="nav-item dropdown "><a href="{{ route('servicios') }}" class="nav-link {{ activeMenu('servicios')}}">Servicios</a>
+                        <li id="dp" class="nav-item dropdown "><a href="{{ route('servicios') }}" disabled="disabled" class="nav-link {{ activeMenu('servicios')}}">Servicios</a>
                             <div id="service" class="dropdown-menu megamenu ">
                             <div class="row">
                                 <div class="col-md-6 product-col ">
@@ -139,7 +135,7 @@
                                         <div class="row">
                                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. quod beatae rerum eligendi soluta amet? Vero dolores saepe sit, optio quam debitis dolorum.</p>
                                         </div>
-                                        <button type="button" class="btn btn-outline-success">Conocer más <i class="fa fa-plus" aria-hidden="true"></i></button>
+                                        <a class="btn btn-outline-success" href="{{ route('greenroad') }}" >Conocer más <i class="fa fa-plus" aria-hidden="true"></i></a>
                                     </div>
                                     <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 "> 
                                     <img id="mt-19em" class="img-fluid" src="{{asset('assets/img/greenroad/green.png')}}" alt="green road">
@@ -163,131 +159,98 @@
                         </li>
                         <!-- /Megamenu end Servicios-->
 
-                        <!-- Megamenu-->
-                        <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" class="nav-link">INDUSTRIAL</a>
-                            <div class="dropdown-menu megamenu">
+                        <!-- Megamenu industrial-->
+                        <li id="dp" class="nav-item dropdown "><a href="{{ route('industrial') }}" disabled="disabled" class="nav-link {{ activeMenu('industrial')}}">Industrial</a>
+                            <div id="service" class="dropdown-menu megamenu ">
                             <div class="row">
-                                <div class="col-lg-9">
+                                <div class="col-md-6 product-col ">
                                 <div class="row">
-                                    <div class="col-lg-3"><strong class="text-uppercase">Home</strong>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#">Classic homepage</a></li>
-                                        <li><a href="#">Parallax sections <span class="badge badge-success ml-2">New</span></a></li>
-                                        <li><a href="#">Video background  <span class="badge badge-success ml-2">New</span></a></li>
-                                    </ul><strong class="text-uppercase">Shop</strong>
-                                    <ul class="list-unstyled">                                                   
-                                        <li><a href="#">Category - left sidebar</a></li>
-                                        <li><a href="#">Category - right sidebar</a></li>
-                                        <li><a href="#">Category - full width</a></li>
-                                        <li><a href="#">Product detail</a></li>
-                                    </ul>
+                                    <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                                        <div class="row"><h4>Akron </h4></div>
+                                        <div class="row"><h5 class="green">Greenroad</h5></div>
+                                        <div class="row">
+                                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. quod beatae rerum eligendi soluta amet? Vero dolores saepe sit, optio quam debitis dolorum.</p>
+                                        </div>
+                                        <a class="btn btn-outline-success" href="{{ route('greenroad') }}" >Conocer más <i class="fa fa-plus" aria-hidden="true"></i></a>
                                     </div>
-                                    <div class="col-lg-3"><strong class="text-uppercase">Order process</strong>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#">Shopping cart</a></li>
-                                        <li><a href="#">Checkout 1 - Address</a></li>
-                                        <li><a href="#">Checkout 2 - Delivery</a></li>
-                                        <li><a href="#">Checkout 3 - Payment</a></li>
-                                        <li><a href="#">Checkout 4 - Review             </a></li>
-                                        <li><a href="#">Checkout 5 - Confirmation             </a></li>
-                                    </ul><strong class="text-uppercase">Blog</strong>
-                                    <ul class="list-unstyled">                                                   
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">Post                                                                                           </a></li>
-                                    </ul>
-                                    </div>
-                                    <div class="col-lg-3"><strong class="text-uppercase">Pages</strong>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#">Contact</a></li>
-                                        <li><a href="#">About us</a></li>
-                                        <li><a href="#">Text page</a></li>
-                                        <li><a href="#">FAQ  <span class="badge badge-success ml-2">New</span></a></li>
-                                        <li><a href="#">Coming soon  <span class="badge badge-success ml-2">New</span></a></li>
-                                        <li><a href="#">Error 404</a></li>
-                                        <li><a href="#">Error 500</a></li>
-                                    </ul>
-                                    </div>
-                                    <div class="col-lg-3"><strong class="text-uppercase">Customer</strong>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#">Login/sign up</a></li>
-                                        <li><a href="#">Orders</a></li>
-                                        <li><a href="#">Order detail</a></li>
-                                        <li><a href="#">Addresses</a></li>
-                                        <li><a href="#">Profile</a></li>
-                                    </ul>
-                                    </div>
-                                </div>
-                                <div class="row services-block">
-                                    <div class="col-xl-3 col-lg-6 d-flex">
-                                    <div class="item d-flex align-items-center">
-                                        <div class="icon"><i class="icon-truck text-primary"></i></div>
-                                        <div class="text"><span class="text-uppercase">Free shipping &amp; return</span><small>Free Shipping over $300</small></div>
-                                    </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-6 d-flex">
-                                    <div class="item d-flex align-items-center">
-                                        <div class="icon"><i class="icon-coin text-primary"></i></div>
-                                        <div class="text"><span class="text-uppercase">Money back guarantee</span><small>30 Days Money Back</small></div>
-                                    </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-6 d-flex">
-                                    <div class="item d-flex align-items-center">
-                                        <div class="icon"><i class="icon-headphones text-primary"></i></div>
-                                        <div class="text"><span class="text-uppercase">020-800-456-747</span><small>24/7 Available Support</small></div>
-                                    </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-6 d-flex">
-                                    <div class="item d-flex align-items-center">
-                                        <div class="icon"><i class="icon-secure-shield text-primary"></i></div>
-                                        <div class="text"><span class="text-uppercase">Secure Payment</span><small>Secure Payment</small></div>
-                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 "> 
+                                    <img id="mt-19em" class="img-fluid" src="{{asset('assets/img/greenroad/green.png')}}" alt="green road">
                                     </div>
                                 </div>
                                 </div>
-                                <div class="col-lg-3 text-center product-col hidden-lg-down">
-                                <a href="detail.html" class="product-image">
-                                    <img src="" alt="..." class="img-fluid">
-                                </a>
-                                <h6 class="text-uppercase product-heading"><a href="detail.html">Lose Oversized Shirt</a></h6>
-                                <ul class="rate list-inline">
-                                    <li class="list-inline-item"><i class="fa fa-star-o text-primary"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star-o text-primary"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star-o text-primary"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star-o text-primary"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star-o text-primary"></i></li>
-                                </ul><strong class="price text-primary">$65.00</strong><a href="#" class="btn btn-template wide">Add to cart</a>
+                                <div class="col-md-6 ">
+                                <div class="col-md-12"><strong class="text-uppercase">Nuestros servicios</strong>
+                                    <ul class="list-unstyled">
+                                    <li><a href="#">Automoviles y camionetas</a></li>
+                                    <li><a href="#">Motocicletas<span class="badge badge-success ml-2">New</span></a></li>
+                                    <li><a href="#">Marino creativo <span class="badge badge-success ml-2">New</span></a></li>
+                                    <li><a href="#">Carga y transporte <span class="badge badge-success ml-2">New</span></a></li>
+                                    <li><a href="#">Industrial<span class="badge badge-success ml-2">New</span></a></li>
+                                    </ul>
                                 </div>
+                                </div>
+                                
                             </div>
                             </div>
                         </li>
-                        <!-- /Megamenu end-->
+                        <!-- /Megamenu end industrial-->
 
                         <!-- Multi level dropdown    -->
-                        <li class="nav-item dropdown"><a id="navbarDropdownMenuLink" href="http://example.com/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">DISTRIBUIDORES</a>
-                            <ul aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
-                            <li><a href="#" class="dropdown-item">Action</a></li>
-                            <li><a href="#" class="dropdown-item">Another action</a></li>
-                            <li class="dropdown-submenu"><a id="navbarDropdownMenuLink2" href="http://example.com/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">Dropdown link<i class="fa fa-angle-down"></i></a>
-                                <ul aria-labelledby="navbarDropdownMenuLink2" class="dropdown-menu">
-                                <li><a href="#" class="dropdown-item">Action</a></li>
-                                <li class="dropdown-submenu"><a id="navbarDropdownMenuLink3" href="http://example.com/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">
-                                    Another action<i class="fa fa-angle-down"></i></a>
-                                    <ul aria-labelledby="navbarDropdownMenuLink3" class="dropdown-menu">
-                                    <li><a href="#" class="dropdown-item">Action</a></li>
-                                    <li><a href="#" class="dropdown-item">Action</a></li>
-                                    <li><a href="#" class="dropdown-item">Action</a></li>
-                                    <li><a href="#" class="dropdown-item">Action</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#" class="dropdown-item">Something else here</a></li>
-                                </ul>
-                            </li>
-                            </ul>
-                        </li>
+                        <li class="nav-item "><a href="{{ route('distribuidor') }}" class="nav-link {{ activeMenu('distribuidor')}}">Distribuidores</a>
                         <!-- Multi level dropdown end-->
 
-                        <li class="nav-item"><a href="#" class="nav-link">ACTITUD ABSOLUTA </a>
+                        <!-- Megamenu actitud-->
+                        <li id="dp" class="nav-item dropdown "><a href="{{ route('actitud') }}" disabled="disabled" class="nav-link {{ activeMenu('actitud')}}">Actitud absoluta</a>
+                            <div id="actitud" class="dropdown-menu megamenu">
+                            <div class="row">
+                                <div class="col-md-4 product-col ">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                                        <div class="row"><h4>Akron </h4></div>
+                                        <div class="row"><h5 class="green">Greenroad</h5></div>
+                                        <div class="row">
+                                        <p class="text-white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. quod beatae rerum eligendi soluta amet? Vero dolores saepe sit, optio quam debitis dolorum.</p>
+                                        </div>
+                                        
+                                        <a class="btn btn-outline-success" href="{{ route('greenroad') }}" >Conocer más <i class="fa fa-plus" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 "> 
+                                    <img id="mt-19em" class="img-fluid" src="{{asset('assets/img/greenroad/green.png')}}" alt="green road">
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="col-md-4 product-col">
+                                <div class="col-md-12"><strong class="text-uppercase">Categorías de Productos</strong>
+                                    <ul class="list-unstyled">
+                                    <li><a href="#">Automoviles y camionetas</a></li>
+                                    <li><a href="#">Motocicletas<span class="badge badge-success ml-2">New</span></a></li>
+                                    <li><a href="#">Marino creativo <span class="badge badge-success ml-2">New</span></a></li>
+                                    <li><a href="#">Carga y transporte <span class="badge badge-success ml-2">New</span></a></li>
+                                    <li><a href="#">Industrial<span class="badge badge-success ml-2">New</span></a></li>
+                                    </ul>
+                                </div>
+                                </div>
+                                <div class="col-md-4">
+                                <div class="col-md-12"><strong class="text-uppercase">Tipos de productos</strong>
+                                    <ul class="list-unstyled">
+                                    <li><a href="#">Aceites </a></li>
+                                    <li><a href="#">Aditivos de combustible<span class="badge badge-success ml-2">New</span></a></li>
+                                    <li><a href="#">Anticongelantes <span class="badge badge-success ml-2">New</span></a></li>
+                                    <li><a href="#">Cuidado exterior </a></li>
+                                    <li><a href="#">Diesel </a></li>
+                                    <li><a href="#">Engranes y transmisores  </a></li>
+                                    <li><a href="#">Especialidades automotrices </a></li>
+                                    <li><a href="#">Especialidades diesel </a></li>
+                                    <li><a href="#">Grasas lubricantes </a></li>
+                                    <li><a href="#">Transmisiones </a></li>
+                                    </ul>
+                                </div>
+                                </div>
+                                
+                            </div>
+                            </div>
                         </li>
+                        <!-- /Megamenu end actitud-->
 
                     </ul>
                     
@@ -404,14 +367,14 @@
                     <span>INFORMACIÓN</span>
                     <ul class="list-unstyled">
                     <li> <a href="#">- ZONA AKRON</a></li>
-                    <li> <a href="#">- DONDE COMPRAR</a></li>
-                    <li> <a href="#">- BLOG</a></li>
-                    <li> <a href="#">- EMPRESA</a></li>
+                    <li> <a href="{{route('donde-comprar')}}">- DONDE COMPRAR</a></li>
+                    <li> <a href="{{route('blog')}}">- BLOG</a></li>
+                    <li> <a href="{{route('empresa')}}">- EMPRESA</a></li>
                     <li> <a href="#">- CONTACTO</a></li>
                     </ul>
                 </div>
                 <div class="newsletter col-md-3">
-                    <img src="assets/img/logo_akron.png" alt="">
+                    <img class="img-fluid" src="assets/img/logo_akron.png" alt="">
                     <ul class="list-unstyled icons-social">
                     <li class="list-inline-item"><a href="#"><img src="assets/img/FB.png" alt=""></a></li>
                     <li class="list-inline-item"><a href="#"><img src="assets/img/instagram.png" alt=""></a></li>
