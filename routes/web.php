@@ -12,6 +12,18 @@
 */
 
 Route::view('/', 'homev2')->name('home');
+Route::view('productos', 'productos')->name('productos');
+Route::view('micuenta', 'micuenta')->name('micuenta');
+Route::view('servicios', 'servicios')->name('servicios');
+Route::view('mapa-sitio', 'mapa-sitio')->name('mapa-sitio');
+Route::view('crear-cuenta', 'crear-cuenta')->name('crear-cuenta');
+Route::view('carrito', 'carrito')->name('carrito');
+
+
+
+
+
+
 
 Route::view('greenroad', 'greenroad')->name('greenroad');
 Route::view('industrial', 'industrial')->name('industrial');

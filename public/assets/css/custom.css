@@ -25,3 +25,14 @@
     color: white;
     /* background: greenyellow; */
 }
+
+
+a[class="btn btn-outline-danger btn-block"] {
+   
+    color: #dc3545 !important;
+  }
+
+a[class="btn btn-outline-danger btn-block"]:hover {
+    color: #fff !important;
+    background: #dc3545 !important;
+}
