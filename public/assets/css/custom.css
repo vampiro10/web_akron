@@ -65,6 +65,12 @@ a[class="btn btn-outline-success"] {
     opacity: .9;
 } */
 
+.tooltip.in{
+    filter:alpha(opacity=90);
+    opacity:.9
+}
+
+
 .Header {
     position: relative;
     height: 80vh;

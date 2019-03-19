@@ -11,6 +11,8 @@
             <meta name="robots" content="all,follow">
             <!-- Bootstrap CSS-->
             <link rel="stylesheet" href="{{ asset('assets/vendor/bootstrapv4.1.1/css/bootstrap.min.css') }}">
+
+            <link rel="stylesheet" href="{{ asset('assets/vendor/bootstrap-slider/css/bootstrap-slider.min.css') }}">
             <!-- Font Awesome CSS-->
             <link rel="stylesheet" href="{{ asset('assets/vendor/font-awesome/css/font-awesome.min.css') }}">
             <!-- Bootstrap Select-->
@@ -398,6 +400,8 @@
         <!-- JavaScript files-->
         <script src="assets/vendor/popper.js/umd/popper.min.js"> </script>
         <script src="assets/vendor/bootstrapv4.1.1/js/bootstrap.min.js"></script>
+        <script src="assets/vendor/bootstrap-slider/js/bootstrap-slider.min.js"></script>
+        <script src="assets/vendor/bootstrap-slider/js/bootstrap-slider-custom.js"></script>
         <script src="assets/vendor/jquery.cookie/jquery.cookie.js"> </script>
         <script src="assets/vendor/owl.carouselv2.3.4/owl.carousel.min.js"></script>
         <script src="assets/vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js"></script>

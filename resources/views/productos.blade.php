@@ -71,8 +71,8 @@
 
       <div class="col-md-12">
         <div class="custom-control custom-checkbox">
-          <input type="checkbox" class="custom-control-input" id="Marino">
-          <label class="custom-control-label" for="Marino">Superior</label>
+          <input type="checkbox" class="custom-control-input" id="Superior">
+          <label class="custom-control-label" for="Superior">Superior</label>
         </div>
       </div>
 
@@ -87,12 +87,24 @@
         <hr>
       </div>
       
-      <div class="col-md-12"><h5 class="text-muted">Precio</h5></div>
-      Filter by price interval: <b>€ 10</b> <input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> <b>€ 1000</b>
-
+      <div class="col-md-12">
+        <h5 class="text-muted">Precio</h5>
+      </div>
+      <div class="col-md-12">
+          
+          <div class="row justify-content-between">
+            <div class="col-lg-3 col-md-2 col-sm-2 col-3 "><b>$ 10</b></div>  
+            <div class="col-lg-4 col-md-2 col-sm-2 col-3 "> <b class="float-right">$ 1000</b></div>
+          </div> 
+          <div class="col-md-12 "><input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> </div> 
+      </div>
     </div>
     <div class="col-md-9">
-
+        <div class="col-md-4">
+          <img class="img-fluid" src="{{asset('assets/img/greenroad/green.png')}}" alt="">
+          <h5 class="text-body">Akron Euro diesel</h5>
+          
+        </div>
     </div>
   </div>
 </section>
