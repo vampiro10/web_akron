@@ -70,12 +70,12 @@ a[class="btn btn-outline-success"] {
     opacity:.9
 }
 
-
+/* 
 .Header {
     position: relative;
     height: 80vh;
     display: block;
-  }
+  } */
 
   .Header-background {
     position: absolute;
@@ -109,4 +109,16 @@ right: 0;
 .Header-background::after {
 background: var(--color-2);
 bottom: 0;
+}
+
+
+section >div >div > div:nth-child(2) > div > div > div>div:nth-child(6) button {
+    /* background: green; */
+    border-radius: 2px;
+    height: 38px;
+}
+
+section >div >div > div:nth-child(2) > div > div > div>div:nth-child(6) .form-control {
+   padding-top: 0;
+   padding-bottom: 0;
 }

@@ -17,9 +17,10 @@ use Faker\Generator as Faker;
 
 $factory->define(Product::class, function (Faker $faker) {
     return [
+        'nombre'=> $faker->firstName,
         'viscosidad' => $faker->randomDigit,
         'presentacion'=> $faker->randomDigit,
-        'precio' => $faker->boolean,
+        'precio' => $faker->randomFloat($nbMaxDecimals = null, $min = 100, $max = 1000),
         'description' => $faker->paragraph(5),
         'beneficios' => $faker->paragraph(5),
         'aplicaciones' => $faker->paragraph(5),

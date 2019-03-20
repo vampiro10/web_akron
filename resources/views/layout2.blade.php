@@ -38,12 +38,13 @@
             <!-- Favicon-->
             <link rel="shortcut icon" href="{{ asset('assets/img/favicon.ico') }}">
             <!-- Modernizr-->
-            <script src="assets/js/modernizr.custom.79639.js"></script>
+            <script src="{{ asset('assets/js/modernizr.custom.79639.js') }} "></script>
             <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-            <script src="assets/js/jquery.flexisel.js"></script>
+            <script src="{{ asset('assets/js/jquery.flexisel.js') }}"></script>
             <!-- Tweaks for older IEs--><!--[if lt IE 9]>
                 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
                 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+            @yield('styles')
         </head>
             
         <body>
@@ -63,7 +64,7 @@
                 </div>
                 </div>
                 <div class="container">  
-                <!-- Navbar Header  --><a href="{{ route('home') }}" class="navbar-brand"><img src="assets/img/logo_akron.png" alt="..."></a>
+                <!-- Navbar Header  --><a href="{{ route('home') }}" class="navbar-brand"><img src="{{asset('assets/img/logo_akron.png')}}" alt="..."></a>
                 <button type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
                 <!-- Navbar Collapse -->
                 <div id="navbarCollapse" class="collapse navbar-collapse">
@@ -71,7 +72,7 @@
 
                         <li class="nav-item "><a href="{{ route('home') }}" class="nav-link {{ activeMenu('/')}}">Inicio</a>
                         <!-- Megamenu Productos-->
-                        <li  id="dp" class="nav-item dropdown "><a href="{{ route('productos') }}" disabled="disabled" class="nav-link {{ activeMenu('productos')}}">Productos</a>
+                        <li  id="dp" class="nav-item dropdown "><a href="{{ route('productos.index') }}" disabled="disabled" class="nav-link {{ activeMenu('productos')}}">Productos</a>
                             <div id="products" class="dropdown-menu megamenu">
                             <div class="row">
                                 <div class="col-md-4 product-col ">
@@ -376,12 +377,12 @@
                     </ul>
                 </div>
                 <div class="newsletter col-md-3">
-                    <img class="img-fluid" src="assets/img/logo_akron.png" alt="">
+                    <img class="img-fluid" src="{{ asset('assets/img/logo_akron.png') }} " alt="">
                     <ul class="list-unstyled icons-social">
-                    <li class="list-inline-item"><a href="#"><img src="assets/img/FB.png" alt=""></a></li>
-                    <li class="list-inline-item"><a href="#"><img src="assets/img/instagram.png" alt=""></a></li>
-                    <li class="list-inline-item"><a href="#"><img src="assets/img/tw.png" alt=""></a></li>
-                    <li class="list-inline-item"><a href="#"><img src="assets/img/youtube.png" alt=""></a></li>
+                    <li class="list-inline-item"><a href="#"><img src="{{ asset('assets/img/FB.png') }} " alt=""></a></li>
+                    <li class="list-inline-item"><a href="#"><img src="{{ asset('assets/img/instagram.png') }} " alt=""></a></li>
+                    <li class="list-inline-item"><a href="#"><img src="{{ asset('assets/img/tw.png') }} " alt=""></a></li>
+                    <li class="list-inline-item"><a href="#"><img src="{{ asset('assets/img/youtube.png') }} " alt=""></a></li>
                     </ul>
                 </div>
                 </div>
@@ -398,17 +399,21 @@
             </div>
         </footer>
         <!-- JavaScript files-->
-        <script src="assets/vendor/popper.js/umd/popper.min.js"> </script>
-        <script src="assets/vendor/bootstrapv4.1.1/js/bootstrap.min.js"></script>
-        <script src="assets/vendor/bootstrap-slider/js/bootstrap-slider.min.js"></script>
-        <script src="assets/vendor/bootstrap-slider/js/bootstrap-slider-custom.js"></script>
-        <script src="assets/vendor/jquery.cookie/jquery.cookie.js"> </script>
-        <script src="assets/vendor/owl.carouselv2.3.4/owl.carousel.min.js"></script>
-        <script src="assets/vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js"></script>
-        <script src="assets/vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
-        <script src="assets/vendor/nouislider/nouislider.min.js"></script>
-        <script src="assets/vendor/jquery-countdown/jquery.countdown.min.js"></script>
+        {{-- <script src="{{ asset('assets/vendor/jqueryv3.3.1/jquery.min.js') }} "> </script> --}}
+        <script src="{{ asset('assets/vendor/popper.js/umd/popper.min.js') }} "> </script>
+        <script src="{{ asset('assets/vendor/bootstrapv4.1.1/js/bootstrap.min.js') }} "></script>
+        <script src="{{ asset('assets/vendor/bootstrap-slider/js/bootstrap-slider.min.js') }} "></script>
+        <script src="{{ asset('assets/vendor/bootstrap-slider/js/bootstrap-slider-custom.js') }} "></script>
+        <script src="{{ asset('assets/vendor/jquery.cookie/jquery.cookie.js') }} "> </script>
+        <script src="{{ asset('assets/vendor/owl.carouselv2.3.4/owl.carousel.min.js') }} "></script>
+        <script src="{{ asset('assets/vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js') }} "></script>
+        <script src="{{ asset('assets/vendor/bootstrap-select/js/bootstrap-select.min.js') }} "></script>
+        <script src="{{ asset('assets/vendor/nouislider/nouislider.min.js') }} "></script>
+        <script src="{{ asset('assets/vendor/jquery-countdown/jquery.countdown.min.js') }} "></script>
+        <script src="{{ asset('assets/vendor/bootstrap-spinner/dist/bootstrap-spinner.min.js') }} "></script>
+        <script src="{{ asset('assets/vendor/bootstrap-spinner/dist/mousehold.min.js') }} "></script>  
         <!-- Main Template File-->
-        <script src="assets/js/front.js"></script>
+        <script src="{{ asset('assets/js/front.js') }} "></script>
+        @yield('scripts')
         </body>
     </html>

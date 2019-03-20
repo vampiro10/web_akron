@@ -14,7 +14,10 @@ class ProductController extends Controller
      */
     public function index()
     {
-        //
+        // $products = Product::all()->paginate(5);
+        $products = Product::paginate(5);
+
+        return view('products.index', compact('products'));
     }
 
     /**
@@ -44,9 +47,11 @@ class ProductController extends Controller
      * @param  \App\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function show(Product $product)
+    public function show($id)
     {
-        //
+
+        $product = Product::findOrFail($id);
+        return view('products.show', compact('product'));
     }
 
     /**

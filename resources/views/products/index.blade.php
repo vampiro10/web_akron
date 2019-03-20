@@ -100,11 +100,20 @@
       </div>
     </div>
     <div class="col-md-9">
-        <div class="col-md-4">
-          <img class="img-fluid" src="{{asset('assets/img/greenroad/green.png')}}" alt="">
-          <h5 class="text-body">Akron Euro diesel</h5>
-          
-        </div>
+      <div class="row">
+        @foreach ($products as $product )
+          <div class="col-md-4 text-center">
+            <img class="img-fluid " src="{{asset($product->img)}}" alt="">
+            <h5 class="text-body">{{$product->nombre}}</h5>
+            <h6 class="text-muted"> $ {{$product->precio}}</h6>
+            <a class="btn btn-outline-danger btn-block" href="{{URL::route('productos.show', $product->id) }}" role="button">Ver detalle</a>
+            <br>
+          </div>
+        @endforeach
+      </div>
+      <div>
+        {{$products->render()}}
+      </div>
     </div>
   </div>
 </section>
