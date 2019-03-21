@@ -1016,8 +1016,15 @@ nav.navbar .menu-large {
 }
 
 #actitud {
-    left: -41em;
+    width: 34em;
+    left: -25em;
 }
+
+#industria {
+    width: 43em;
+    left: -21em;
+}
+
 
 @media (max-width: 992px) {
 

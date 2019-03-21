@@ -1,9 +1,3 @@
-:root {
-    --color-1: #21d4fd;
-    --color-2: #b721ff;
-    --color-3: #08aeea;
-    --color-4: #2af598;
-  }
 
 /* your styles go here */
 #banner_akron div:nth-child(2) .form-control{
@@ -18,17 +12,12 @@
     /* background: greenyellow; */
 }
 
-@media (max-width: 992px){
-    #mt-19em {
-        margin-top: 1em;
-    }
-}
 
 .green{
     color: greenyellow ;
 }
 
-#service  p , #products p {
+#service  p , #products p , #industria p {
     color: white;
     /* background: greenyellow; */
 }
@@ -57,60 +46,24 @@ a[class="btn btn-outline-success"] {
     /* position: absolute; */
 }
 
-/* .heder_blue{
+.heder_blue{
+    width: 100%;
+    height:100%;
+    opacity: .9;
+}
+
+.header-svg{
+    z-index: 10;
     position: absolute;
     width: 100%;
-    height: 76%;
-    top: 6em;
-    opacity: .9;
-} */
+    height: 100%;
+    top: 3em;
+}
 
 .tooltip.in{
     filter:alpha(opacity=90);
     opacity:.9
 }
-
-/* 
-.Header {
-    position: relative;
-    height: 80vh;
-    display: block;
-  } */
-
-  .Header-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(19deg, var(--color-1), var(--color-2));
-    -webkit-transform-origin: 0px 0px;
-            transform-origin: 0px 0px;
-    -webkit-transform: skewY(-10deg);
-            transform: skewY(-10deg);
-    overflow: hidden;
-    z-index: -1;
-  }
-.Header-background::before,
-.Header-background::after {
-display: block;
-position: absolute;
-content: '';
-width: 80%;
-height: 33.333333333333336%;
-opacity: 0.3;
--webkit-filter: blur(15px);
-        filter: blur(15px);
-}
-.Header-background::before {
-background: var(--color-1);
-right: 0;
-}
-.Header-background::after {
-background: var(--color-2);
-bottom: 0;
-}
-
 
 section >div >div > div:nth-child(2) > div > div > div>div:nth-child(6) button {
     /* background: green; */
@@ -121,4 +74,46 @@ section >div >div > div:nth-child(2) > div > div > div>div:nth-child(6) button {
 section >div >div > div:nth-child(2) > div > div > div>div:nth-child(6) .form-control {
    padding-top: 0;
    padding-bottom: 0;
+}
+
+.header-product{
+    position: relative;
+    height: 20em;
+    background-image: url('../img/empresa/banner_01.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+
+@media (max-width: 992px){
+    #mt-19em {
+        margin-top: 1em;
+    }
+    .header-product{
+        height: 15.4em;
+    }
+}
+
+@media (max-width: 1120px) {
+    .header-product{
+        height: 17em;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-product{
+        height: 13em;
+    }
+}
+
+@media (max-width: 575px) {
+    .header-product{
+        height: 10.1em;
+    }
+}
+
+@media (max-width: 380px) {
+    .header-product{
+        height: 7.9em;
+    }
 }

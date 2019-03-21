@@ -81,7 +81,7 @@
                                         <div class="row"><h4>Akron </h4></div>
                                         <div class="row"><h5 class="green">Greenroad</h5></div>
                                         <div class="row">
-                                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. quod beatae rerum eligendi soluta amet? Vero dolores saepe sit, optio quam debitis dolorum.</p>
+                                        <p>El primer aditivo ecológico para gasolina y diesel. Reduce emisiones contaminantes y ahora hasta un 10% de combustible.</p>
                                         </div>
                                         
                                         <a class="btn btn-outline-success" href="{{ route('greenroad') }}" >Conocer más <i class="fa fa-plus" aria-hidden="true"></i></a>
@@ -136,7 +136,7 @@
                                         <div class="row"><h4>Akron </h4></div>
                                         <div class="row"><h5 class="green">Greenroad</h5></div>
                                         <div class="row">
-                                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. quod beatae rerum eligendi soluta amet? Vero dolores saepe sit, optio quam debitis dolorum.</p>
+                                        <p>El primer aditivo ecológico para gasolina y diesel. Reduce emisiones contaminantes y ahora hasta un 10% de combustible.</p>
                                         </div>
                                         <a class="btn btn-outline-success" href="{{ route('greenroad') }}" >Conocer más <i class="fa fa-plus" aria-hidden="true"></i></a>
                                     </div>
@@ -148,11 +148,8 @@
                                 <div class="col-md-6 ">
                                 <div class="col-md-12"><strong class="text-uppercase">Nuestros servicios</strong>
                                     <ul class="list-unstyled">
-                                    <li><a href="#">Automoviles y camionetas</a></li>
-                                    <li><a href="#">Motocicletas<span class="badge badge-success ml-2">New</span></a></li>
-                                    <li><a href="#">Marino creativo <span class="badge badge-success ml-2">New</span></a></li>
-                                    <li><a href="#">Carga y transporte <span class="badge badge-success ml-2">New</span></a></li>
-                                    <li><a href="#">Industrial<span class="badge badge-success ml-2">New</span></a></li>
+                                    <li><a href="#">Zona akron</a></li>
+                                    <li><a href="#">Pitlub<span class="badge badge-success ml-2">New</span></a></li>
                                     </ul>
                                 </div>
                                 </div>
@@ -163,16 +160,16 @@
                         <!-- /Megamenu end Servicios-->
 
                         <!-- Megamenu industrial-->
-                        <li id="dp" class="nav-item dropdown "><a href="{{ route('industrial') }}" disabled="disabled" class="nav-link {{ activeMenu('industrial')}}">Industrial</a>
-                            <div id="service" class="dropdown-menu megamenu ">
+                        <li id="dp" class="nav-item dropdown "><a href="{{ route('industrial') }}" disabled="disabled" class="nav-link {{ activeMenu('industrial')}}">Industria</a>
+                            <div id="industria" class="dropdown-menu megamenu ">
                             <div class="row">
-                                <div class="col-md-6 product-col ">
+                                <div class="col-md-4 product-col ">
                                 <div class="row">
                                     <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
                                         <div class="row"><h4>Akron </h4></div>
                                         <div class="row"><h5 class="green">Greenroad</h5></div>
                                         <div class="row">
-                                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. quod beatae rerum eligendi soluta amet? Vero dolores saepe sit, optio quam debitis dolorum.</p>
+                                        <p>El primer aditivo ecológico para gasolina y diesel. Reduce emisiones contaminantes y ahora hasta un 10% de combustible.</p>
                                         </div>
                                         <a class="btn btn-outline-success" href="{{ route('greenroad') }}" >Conocer más <i class="fa fa-plus" aria-hidden="true"></i></a>
                                     </div>
@@ -181,16 +178,28 @@
                                     </div>
                                 </div>
                                 </div>
-                                <div class="col-md-6 ">
-                                <div class="col-md-12"><strong class="text-uppercase">Nuestros servicios</strong>
-                                    <ul class="list-unstyled">
-                                    <li><a href="#">Automoviles y camionetas</a></li>
-                                    <li><a href="#">Motocicletas<span class="badge badge-success ml-2">New</span></a></li>
-                                    <li><a href="#">Marino creativo <span class="badge badge-success ml-2">New</span></a></li>
-                                    <li><a href="#">Carga y transporte <span class="badge badge-success ml-2">New</span></a></li>
-                                    <li><a href="#">Industrial<span class="badge badge-success ml-2">New</span></a></li>
-                                    </ul>
+                                <div class="col-md-4 product-col">
+                                    <div class="col-md-12"><strong class="text-uppercase">Industria</strong>
+                                        <ul class="list-unstyled">
+                                        <li><a href="#">Productos</a></li>
+                                        <li><a href="#">Industrias<span class="badge badge-success ml-2">New</span></a></li>
+                                        <li><a href="#">Pacom <span class="badge badge-success ml-2">New</span></a></li>
+                                        <li><a href="#">Catálogos <span class="badge badge-success ml-2">New</span></a></li>
+                                        <li><a href="#">Contacto<span class="badge badge-success ml-2">New</span></a></li>
+                                        <li><a href="#">Blog<span class="badge badge-success ml-2">New</span></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
+                                <div class="col-md-4">
+                                    <div class="col-md-12"><strong class="text-uppercase">Productos</strong>
+                                        <ul class="list-unstyled">
+                                        <li><a href="#">Transporte </a></li>
+                                        <li><a href="#">Minas<span class="badge badge-success ml-2">New</span></a></li>
+                                        <li><a href="#">Agrícola <span class="badge badge-success ml-2">New</span></a></li>
+                                        <li><a href="#">Industriales </a></li>
+                                        <li><a href="#">Construcción </a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                                 
                             </div>
@@ -206,13 +215,13 @@
                         <li id="dp" class="nav-item dropdown "><a href="{{ route('actitud') }}" disabled="disabled" class="nav-link {{ activeMenu('actitud')}}">Actitud absoluta</a>
                             <div id="actitud" class="dropdown-menu megamenu">
                             <div class="row">
-                                <div class="col-md-4 product-col ">
+                                <div class="col-md-6 product-col ">
                                 <div class="row">
                                     <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
                                         <div class="row"><h4>Akron </h4></div>
                                         <div class="row"><h5 class="green">Greenroad</h5></div>
                                         <div class="row">
-                                        <p class="text-white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. quod beatae rerum eligendi soluta amet? Vero dolores saepe sit, optio quam debitis dolorum.</p>
+                                        <p class="text-white">El primer aditivo ecológico para gasolina y diesel. Reduce emisiones contaminantes y ahora hasta un 10% de combustible.</p>
                                         </div>
                                         
                                         <a class="btn btn-outline-success" href="{{ route('greenroad') }}" >Conocer más <i class="fa fa-plus" aria-hidden="true"></i></a>
@@ -222,30 +231,13 @@
                                     </div>
                                 </div>
                                 </div>
-                                <div class="col-md-4 product-col">
-                                <div class="col-md-12"><strong class="text-uppercase">Categorías de Productos</strong>
+                                <div class="col-md-6 ">
+                                <div class="col-md-12"><strong class="text-uppercase">Embajadores </strong>
                                     <ul class="list-unstyled">
-                                    <li><a href="#">Automoviles y camionetas</a></li>
-                                    <li><a href="#">Motocicletas<span class="badge badge-success ml-2">New</span></a></li>
-                                    <li><a href="#">Marino creativo <span class="badge badge-success ml-2">New</span></a></li>
-                                    <li><a href="#">Carga y transporte <span class="badge badge-success ml-2">New</span></a></li>
-                                    <li><a href="#">Industrial<span class="badge badge-success ml-2">New</span></a></li>
-                                    </ul>
-                                </div>
-                                </div>
-                                <div class="col-md-4">
-                                <div class="col-md-12"><strong class="text-uppercase">Tipos de productos</strong>
-                                    <ul class="list-unstyled">
-                                    <li><a href="#">Aceites </a></li>
-                                    <li><a href="#">Aditivos de combustible<span class="badge badge-success ml-2">New</span></a></li>
-                                    <li><a href="#">Anticongelantes <span class="badge badge-success ml-2">New</span></a></li>
-                                    <li><a href="#">Cuidado exterior </a></li>
-                                    <li><a href="#">Diesel </a></li>
-                                    <li><a href="#">Engranes y transmisores  </a></li>
-                                    <li><a href="#">Especialidades automotrices </a></li>
-                                    <li><a href="#">Especialidades diesel </a></li>
-                                    <li><a href="#">Grasas lubricantes </a></li>
-                                    <li><a href="#">Transmisiones </a></li>
+                                    <li><a href="#">Erick Ruiz</a></li>
+                                    <li><a href="#">Rogelio López<span class="badge badge-success ml-2">New</span></a></li>
+                                    <li><a href="#">Carlos Ortiz<span class="badge badge-success ml-2">New</span></a></li>
+                                    <li><a href="#">Jaime Munguía<span class="badge badge-success ml-2">New</span></a></li>
                                     </ul>
                                 </div>
                                 </div>
