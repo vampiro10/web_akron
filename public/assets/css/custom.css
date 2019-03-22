@@ -1,5 +1,7 @@
 
 /* your styles go here */
+
+/* --- Menu--- */
 #banner_akron div:nth-child(2) .form-control{
     /* background-color: greenyellow !important; */
     background-color: #fff;
@@ -43,8 +45,9 @@ a[class="btn btn-outline-success"] {
     border-top: 30px solid #0071c3;
     border-right: 30px solid transparent;
     z-index: 2;
-    /* position: absolute; */
 }
+
+/* --- Productos --- */
 
 .heder_blue{
     width: 100%;
@@ -52,6 +55,12 @@ a[class="btn btn-outline-success"] {
     opacity: .9;
 }
 
+.heder_black{
+    width: 100%;
+    height:100%;
+    opacity: .5;
+    background-color: black;
+}
 .header-svg{
     z-index: 10;
     position: absolute;
@@ -84,6 +93,56 @@ section >div >div > div:nth-child(2) > div > div > div>div:nth-child(6) .form-co
     background-position:center;
 }
 
+.header-gas{
+    position: relative;
+    height: 20em;
+    background-image: url('../img/gas-station/gas_station_2.jpg');
+    background-color: black;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+/* Gasolineras */
+#gas > div > div > div:nth-child(2) > div > section > div > div{
+    margin-bottom: 1.5em;
+}
+
+#gas > div > div > div:nth-child(2) > div > section {
+    border: solid 1px;
+    border-color: rgba(0, 168, 226, 255);
+
+}
+
+#gas section > div > div > div:nth-child(2) > div > div > .row > p span {
+    /* background: #28a745; */
+    color :rgb(0, 61, 167)
+}
+#gas section > div > div > div:nth-child(2) > div > div > .row > p bdi {
+    /* background: #28a745; */
+    color :rgb(98, 167, 15)
+}
+
+#gas section > div > div > div:nth-child(2) > div > div > .row > ul {
+    list-style-image: url('../img/gas-station/rigth.png');
+    /* background-image: url('../img/gas-station/rigth.png') no-repeat; */
+}
+@media (max-width: 1845px) {
+    .header-product{
+        height: 27em;
+    }
+}
+
+@media (max-width: 1366px) {
+    .header-product{
+        height: 20em;
+    }
+}
+
+@media (max-width: 1120px) {
+    .header-product{
+        height: 17em;
+    }
+}
 
 @media (max-width: 992px){
     #mt-19em {
@@ -91,12 +150,6 @@ section >div >div > div:nth-child(2) > div > div > div>div:nth-child(6) .form-co
     }
     .header-product{
         height: 15.4em;
-    }
-}
-
-@media (max-width: 1120px) {
-    .header-product{
-        height: 17em;
     }
 }
 
@@ -116,4 +169,16 @@ section >div >div > div:nth-child(2) > div > div > div>div:nth-child(6) .form-co
     .header-product{
         height: 7.9em;
     }
+}
+
+.fill_red{
+    fill: rgba(225, 37, 28, 255)
+}
+
+.fill_0c4479{
+    fill: rgba(10, 71, 128, 255)
+}
+
+.bg_0c4479{
+    background-color: rgba(10, 71, 128, 255)
 }

@@ -8,7 +8,7 @@
     <div class="">
       <div class="banner-home" class="item d-flex align-items-center has-pattern">
         <div class="caja-txt-home">
-          <div class="row">
+          <div class="container">
             <div class="col-lg-12 text-center">
               <h2>TU MUNDO EN MOVIMIENTO</h2>
             </div>
