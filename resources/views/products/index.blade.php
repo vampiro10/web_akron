@@ -39,11 +39,11 @@
 
 </div>
 
-<div class="container">
+<div class="container text-uppercase mt-5">
   <section>
     <div class="row">
       <div class="col-md-3">
-        <div class="col-md-12"><h3 class="text-dark">Productos</h3></div>
+        <div class="col-md-12"><h3 class="text-body font-weight-bold">Productos</h3></div>
         <div class="col-md-12">
           <div class="custom-control custom-checkbox">
             <input type="checkbox" class="custom-control-input" id="Automoviles">
@@ -81,8 +81,8 @@
         <div class="col-md-12">
         <hr>
         </div>
-        <div class="col-md-12"><h3 class="text-dark">Filtro</h3></div>
-        <div class="col-md-12"><h5 class="text-muted">Tipo de aceite</h5></div>
+        <div class="col-md-12"><h3 class="text-body font-weight-bold ">Filtro</h3></div>
+        <div class="col-md-12"><h5 class="text-muted font-weight-light">Tipo de aceite</h5></div>
         <div class="col-md-12">
           <div class="custom-control custom-checkbox">
             <input type="checkbox" class="custom-control-input" id="Excepcional">
@@ -128,19 +128,44 @@
         </div>
       </div>
       <div class="col-md-9">
+        <div class="row align-items-center justify-content-between border-bottom border-dark">
+          <div class="col-md-2"> 6 Productos </div>
+          <div class="col-md-3 justify-content-end d-flex pr-0">
+              <form class="form-inline">
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Mostrar : </label>
+                <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                  <option selected>Todos</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </form>
+          </div>
+        </div>
         <div class="row">
+          
+
           @foreach ($products as $product )
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 mt-4">
               <img class="img-fluid " src="{{asset($product->img)}}" alt="">
-              <h5 class="text-body">{{$product->nombre}}</h5>
-              <h6 class="text-muted"> $ {{$product->precio}}</h6>
-              <a class="btn btn-outline-danger btn-block" href="{{URL::route('productos.show', $product->id) }}" role="button">Ver detalle</a>
+              <h3 class="text-body font-weight-bold">{{$product->nombre}}</h3>
+              <h4 class="text-body font-weight-normal"> $ {{$product->precio}} MX</h4>
+              <p>- sintetico <br> - Alto desempeño <br> - Hasta 10,000 kilometros entre cambios</p>
+              <div class="row justify-content-center"><a class="btn btn-danger" href="{{URL::route('productos.show', $product->id) }}" role="button">Ver detalle</a></div>
               <br>
             </div>
           @endforeach
         </div>
-        <div>
-          {{$products->render()}}
+        <div class="row align-items-center justify-content-between border-top border-dark ">
+          <div class="col-md-2">
+              6 Productos
+          </div>
+          <div class="col-md-6">
+
+            {{$products->render()}}
+
+          </div>
+          
         </div>
       </div>
     </div>

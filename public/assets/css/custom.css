@@ -1,5 +1,6 @@
 
 /* your styles go here */
+
 /* header */
 header > nav >div:nth-child(2) > div >div:nth-child(3) a {
     padding: .25rem 1.5rem;
@@ -50,13 +51,26 @@ header > nav{
     /* background: greenyellow; */
 }
 
+/* Home */
 
-a[class="btn btn-outline-danger btn-block"] {
+/* #produ-nuevo li > div{
+    border-left: solid 1px;
+    border-right: solid 1px;
+
+    border-color: blue;
+    margin-left: 1em;
+    margin-right: 1em;
+} */
+
+
+a[class="btn btn-danger"] {
    
-    color: #dc3545 !important;
+    color: #fff !important;
+    border-radius: 0px;
+    
   }
 
-a[class="btn btn-outline-danger btn-block"]:hover {
+a[class="btn btn-danger"]:hover {
     color: #fff !important;
     background: #dc3545 !important;
 }
@@ -124,6 +138,20 @@ section >div >div > div:nth-child(2) > div > div > div>div:nth-child(6) .form-co
     background-repeat:no-repeat;
     background-position:center;
 }
+
+.custom-select {
+    border-radius: 0px;
+}
+
+ul .pagination{
+    /* margin-top: 1em; */
+}
+
+ul  .pagination ,li{
+   /* margin-left: 1em; */
+   /* margin-right: 1em; */
+}
+/* Products End */
 
 .header-gas{
     position: relative;

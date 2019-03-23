@@ -801,7 +801,7 @@ nav.navbar .right-col a.dropdown-toggle {
     margin: 0 10px;
     text-decoration: none;
     cursor: pointer;
-    /* font-size: 1.2em; */
+    
     font-weight: lighter;
 }
 nav.navbar .right-col .search::after,
@@ -3842,6 +3842,8 @@ h4 {
 .h5,
 h5 {
     font-size: 1.25rem;
+    color: black;
+    font-weight: bold;
 }
 .h6,
 h6 {

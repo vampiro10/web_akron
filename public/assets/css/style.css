@@ -41,6 +41,9 @@ display:none;
     padding:0px;
     cursor:pointer;
     position:relative;
+    /* border-left: solid .1px;
+    border-right: solid .1px; */
+
 }
 .nbs-flexisel-item img {
     position: relative;
@@ -98,7 +101,7 @@ display:none;
 }
 
 .nbs-flexisel-nav-left {
-    left: 10px;
+    left: 17px;
 }
 
 .nbs-flexisel-nav-left:before {

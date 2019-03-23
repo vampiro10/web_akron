@@ -71,55 +71,64 @@
   <section>
     <div class="container">
       <div class="row align-items-center">
-      <h5 class="txt-produ-d">PRODUCTOS NUEVOS</h5>
+      <h5 class="txt-produ-d text-body">PRODUCTOS NUEVOS</h5>
         <ul id="produ-nuevo">
             <li>
-              <img src="assets/img/img-akron.jpg" />
-              <div class="caja-txt">
-                <h5>AKRON EURO TTTDIESEL</h5>
-                <p>- SINTÉTICO</p>
-                <p>- ALTO DESEMPEÑO</p>
-                <p>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</p>
-                  </div>
-                  <div class="col-12 btn-comprar">
-                      <button type="button" class="btn btn-danger">Danger</button>
-                  </div>
+              <div>
+                <img src="assets/img/img-akron.jpg" />
+                <div class="caja-txt">
+                  <h5>AKRON EURO TTTDIESEL</h5>
+                  <p>- SINTÉTICO</p>
+                  <p>- ALTO DESEMPEÑO</p>
+                  <p>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</p>
+                </div>
+                <div class="col-12 btn-comprar">
+                    <a href="">COMPRAR</a>
+                </div>
+              </div>
+              
             </li>
             <li>
-              <img src="assets/img/img-akron.jpg" />
-              <div class="caja-txt">
-                <h5>AKRON EURO TTTDIESEL</h5>
-                <p>- SINTÉTICO</p>
-                <p>- ALTO DESEMPEÑO</p>
-                <p>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</p>
+              <div>
+                <img src="assets/img/img-akron.jpg" />
+                <div class="caja-txt">
+                  <h5>AKRON EURO TTTDIESEL</h5>
+                  <p>- SINTÉTICO</p>
+                  <p>- ALTO DESEMPEÑO</p>
+                  <p>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</p>
+                </div>
+                <div class="col-12 btn-comprar">
+                    <a href="">COMPRAR</a>
+                </div>
               </div>
-              <div class="col-12 btn-comprar">
-                      <button type="button" class="btn btn-danger">Danger</button>
-                  </div>
             </li>
             <li>
-              <img src="assets/img/img-akron.jpg" />
-              <div class="caja-txt">
-                <h5>AKRON EURO TTTDIESEL</h5>
-                <p>- SINTÉTICO</p>
-                <p>- ALTO DESEMPEÑO</p>
-                <p>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</p>
+              <div>
+                <img src="assets/img/img-akron.jpg" />
+                <div class="caja-txt">
+                  <h5>AKRON EURO TTTDIESEL</h5>
+                  <p>- SINTÉTICO</p>
+                  <p>- ALTO DESEMPEÑO</p>
+                  <p>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</p>
+                </div>
+                <div class="col-12 btn-comprar">
+                    <a href="">COMPRAR</a>
+                </div>
               </div>
-              <div class="col-12 btn-comprar">
-                      <button type="button" class="btn btn-danger">Danger</button>
-                  </div>
             </li>
             <li>
-              <img src="assets/img/img-akron.jpg" />
-              <div class="caja-txt">
-                <h5>AKRON EURO TTTDIESEL</h5>
-                <p>- SINTÉTICO</p>
-                <p>- ALTO DESEMPEÑO</p>
-                <p>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</p>
+              <div>
+                <img src="assets/img/img-akron.jpg" />
+                <div class="caja-txt">
+                  <h5>AKRON EURO TTTDIESEL</h5>
+                  <p>- SINTÉTICO</p>
+                  <p>- ALTO DESEMPEÑO</p>
+                  <p>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</p>
+                </div>
+                <div class="col-12 btn-comprar">
+                    <a href="">COMPRAR</a>
+                </div>
               </div>
-              <div class="col-12 btn-comprar">
-                      <button type="button" class="btn btn-danger">Danger</button>
-                  </div>
             </li>                                                 
         </ul>    
       </div>
@@ -182,7 +191,7 @@
               </select>
             </div>
             <div class="col-md-12 text-center">
-              <input type="submit" class="btn btn-danger" name="" value="BUSCAR">
+                <input type="submit" name="" value="BUSCAR">
             </div>
           </div>
         </div>
@@ -206,7 +215,7 @@
                 <p>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</p>
               </div>
               <div class="col-12 btn-comprar">
-                      <button type="button" class="btn btn-danger">Danger</button>
+                      <a href="">COMPRAR</a>
                   </div>
             </li>
             <li>
@@ -218,7 +227,7 @@
                 <p>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</p>
               </div>
               <div class="col-12 btn-comprar">
-                      <button type="button" class="btn btn-danger">Danger</button>
+                      <a href="">COMPRAR</a>
                   </div>
             </li>
             <li>
@@ -230,7 +239,7 @@
                 <p>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</p>
               </div>
               <div class="col-12 btn-comprar">
-                      <button type="button" class="btn btn-danger">Danger</button>
+                      <a href="">COMPRAR</a>
                   </div>
             </li>
             <li>
@@ -242,7 +251,7 @@
                 <p>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</p>
               </div>
               <div class="col-12 btn-comprar">
-                      <button type="button" class="btn btn-danger">Danger</button>
+                      <a href="">COMPRAR</a>
                   </div>
             </li>                                                 
         </ul>    
