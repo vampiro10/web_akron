@@ -213,9 +213,11 @@ nav.navbar .right-col .search, nav.navbar .right-col a.dropdown-toggle, nav.navb
 } */
 #navbarCollapse ul li a {
 	font-size: 13px;
+	
 }
 #navbarCollapse {
 	margin-top: 15px;
+	width: 100%;
 }
 .caja-img-link img {
 	width: 100%;

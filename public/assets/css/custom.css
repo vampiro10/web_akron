@@ -1,5 +1,31 @@
 
 /* your styles go here */
+/* header */
+header > nav >div:nth-child(2) > div >div:nth-child(3) a {
+    padding: .25rem 1.5rem;
+    color: #212529;
+    margin-bottom: 0em;
+}
+
+header > nav >div:nth-child(2) > div >div:nth-child(3) > div a:hover {
+    color: red;
+}
+
+header > nav >div:nth-child(2) > div >div:nth-child(3) > div  {
+    margin-top: 0 !important;
+}
+
+ul{
+    width: 100%;
+}
+
+header > nav{
+    flex-flow: nowrap !important;
+    position: relative !important;
+    display: block!important;
+    align-items: center !important;
+}
+
 
 /* --- Menu--- */
 #banner_akron div:nth-child(2) .form-control{
@@ -35,8 +61,14 @@ a[class="btn btn-outline-danger btn-block"]:hover {
     background: #dc3545 !important;
 }
 
-a[class="btn btn-outline-success"] {
-    color: #28a745 !important;
+a[class="btn btn-success"] {
+    color: #fff !important;
+    border-radius: 0;
+    
+}
+a[class="btn btn-success"]:hover {
+    background: #28a745;
+    
 }
 
 .post_triangulo_top_left {

@@ -709,6 +709,9 @@ nav.navbar .dropdown-item:last-of-type {
 }
 nav.navbar .nav-item {
     position: relative;
+    margin-left: 1em;
+    margin-right: 1em;
+
 }
 
 nav.navbar a.nav-link {
@@ -720,7 +723,7 @@ nav.navbar a.nav-link {
 
 nav.navbar a.nav-link.active,
 nav.navbar a.nav-link:hover {
-    color: #9055A2;
+    color: red;
 }
 nav.navbar a.nav-link i {
     margin-left: 3px;
@@ -794,11 +797,12 @@ nav.navbar .CTA .btn:first-of-type {
 nav.navbar .right-col .search,
 nav.navbar .right-col .user-link,
 nav.navbar .right-col a.dropdown-toggle {
-    color: #333;
+    color: #fff;
     margin: 0 10px;
     text-decoration: none;
     cursor: pointer;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
+    font-weight: lighter;
 }
 nav.navbar .right-col .search::after,
 nav.navbar .right-col .user-link::after,
@@ -815,9 +819,9 @@ nav.navbar .right-col .cart {
 nav.navbar .cart-no {
     min-width: 20px;
     min-height: 20px;
-    border-radius: 50%;
+    border-radius: 0;
     font-size: 0.6em;
-    background: #9055A2;
+    background: red;
     color: #fff;
     text-align: center;
     position: absolute;
@@ -850,7 +854,7 @@ nav.navbar .search-area-inner input {
     border-bottom: 1px solid #aaa;
     width: 100%;
     padding: 15px 0;
-    font-family: "Poppins",sans-serif;
+    font-family: 'Oswald',sans-serif !important;
     outline: none;
     font-size: 1.2em;
     font-weight: 300;
@@ -924,12 +928,12 @@ nav.navbar .menu-large {
 .megamenu ul a {
     padding: 5px 0 !important;
     text-decoration: none;
-    color: #555;
+    color: #fff;
 }
 
 .megamenu ul a:hover {
     background: none;
-    color: #9055A2;
+    color: red;
 }
 
 .megamenu .product-col {
@@ -3784,7 +3788,6 @@ h4.comments-heading {
     border-radius: 25px;
 }
 body {
-    font-family: "Poppins",sans-serif;
     font-size: 1rem;
     font-weight: normal;
     line-height: 1.5;
@@ -3814,8 +3817,8 @@ h4,
 h5,
 h6 {
     margin-bottom: 0.5rem;
-    font-family: "Poppins",sans-serif;
-    font-weight: 800;
+    font-family: "Oswald",sans-serif ;
+    font-weight: 100;
     line-height: 1.1;
     color: #fff;
 }
