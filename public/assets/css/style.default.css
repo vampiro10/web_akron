@@ -52,12 +52,15 @@ button {
 }
 
 .form-control {
-    padding: 12px 20px;
+    padding-left: .4em;
+    padding-right: .4em;
+
     border: 1px solid #ddd;
     background: none;
     border-radius: 30px;
     outline: none;
     font-weight: 300;
+    background: #ddd;
 }
 .form-control:focus {
     border-color: #9055A2;
@@ -1102,9 +1105,9 @@ nav.navbar .menu-large {
         border: none;
     }
 
-    .cart .dropdown-menu {
+    /* .cart .dropdown-menu {   esto es para ocultar el carrito de compras 
         display: none !important;
-    }
+    } */
 
     a.view-cart {
         display: inline-block !important;
@@ -3922,17 +3925,17 @@ a.text-primary:hover {
     color: #724381 !important;
 }
 .page-item:first-child .page-link {
-    border-top-left-radius: 0.25rem;
-    border-bottom-left-radius: 0.25rem;
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 0rem;
 }
 .page-item:last-child .page-link {
-    border-top-right-radius: 0.25rem;
-    border-bottom-right-radius: 0.25rem;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
 }
 .page-item.active .page-link {
     color: #fff;
-    background-color: #9055A2;
-    border-color: #9055A2;
+    background-color: #949494;
+    border-color: #949494;
 }
 .page-item.disabled .page-link {
     color: #868e96;

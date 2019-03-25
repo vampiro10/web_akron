@@ -1,7 +1,153 @@
 
 /* your styles go here */
+/* General */
+
+.bg-header{
+    background: rgb(0, 45, 94)
+}
 
 /* header */
+
+    /* login */
+
+header > nav > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div:nth-child(3) a {
+    background:red;
+    border-radius: 0em;
+    color: #fff;
+
+}
+
+
+header > nav > div:nth-child(2) > div > div:nth-child(2) > div > div > div:nth-child(2) > div > form input {
+    border-radius: 0em;
+    background: #fff;
+}
+
+header > nav > div:nth-child(2) > div > div:nth-child(2) > div > div > div:nth-child(2) > div > form a:hover {
+    background: #fff;
+    color: black;
+}
+
+header > nav > div:nth-child(2) > div > div:nth-child(2) > div > div > div:nth-child(2) > div > form .btn {
+   background: red;
+   color: #fff;
+   border-radius: 0em;
+}
+
+/* The container */
+.container_check {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: black;
+    font-weight: lighter;
+    font-size: 15px;
+  }
+/* Hide the browser's default checkbox */
+.container_check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container_check:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+/* When the checkbox is checked, add a blue background */
+.container_check input:checked ~ .checkmark {
+    background-color: red;
+  }
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+/* Show the checkmark when checked */
+.container_check input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+.checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+    /* login END */
+
+header > nav > div:nth-child(2) > div div:nth-child(4) > div > div > div:nth-child(6) .btn {
+    /* background: #28a745; */
+    background: red;
+    border-radius: 0em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    color: #fff !important;
+}
+
+header > nav > div:nth-child(2) > div div:nth-child(4) > div > div > div div:nth-child(2) > div > form > div .btn{
+    border-radius: 0em;
+    font-size: .7em;
+    padding: .5em;
+}
+
+header > nav > div:nth-child(2) > div div:nth-child(4) > div > div > div div:nth-child(2) > div > form > div .btn:focus{
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+
+header > nav > div:nth-child(2) > div div:nth-child(4) > div > div > div div:nth-child(2) > div > form > div input{
+   margin-top: .3em; 
+   height: 1.7em;
+   text-align: center;
+}
+
+header > nav > div:nth-child(2) > div div:nth-child(4) > div{
+    padding-top: .1em !important;
+    padding-bottom: .5em !important;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+}
+
 header > nav >div:nth-child(2) > div >div:nth-child(3) a {
     padding: .25rem 1.5rem;
     color: #212529;
@@ -52,16 +198,6 @@ header > nav{
 }
 
 /* Home */
-
-/* #produ-nuevo li > div{
-    border-left: solid 1px;
-    border-right: solid 1px;
-
-    border-color: blue;
-    margin-left: 1em;
-    margin-right: 1em;
-} */
-
 
 a[class="btn btn-danger"] {
    
@@ -143,14 +279,26 @@ section >div >div > div:nth-child(2) > div > div > div>div:nth-child(6) .form-co
     border-radius: 0px;
 }
 
-ul .pagination{
-    /* margin-top: 1em; */
+#list-products div:nth-child(3) > div:nth-child(2) > ul {
+    margin-top: 1em;
+    justify-content: flex-end !important;
+    /* background: greenyellow; */
+}
+#list-products div:nth-child(3) > div:nth-child(2) > ul li{ 
+    margin-left: 1em;
+    margin-right: 1em;
+    color: black;
 }
 
-ul  .pagination ,li{
-   /* margin-left: 1em; */
-   /* margin-right: 1em; */
+#list-products div:nth-child(3) > div:nth-child(2) > ul li a{ 
+    color: black;
 }
+
+#list-products div:nth-child(3) > div:nth-child(2) > ul li:last-child{
+    
+    margin-right: 0em;
+}
+
 /* Products End */
 
 .header-gas{
@@ -186,6 +334,35 @@ ul  .pagination ,li{
     list-style-image: url('../img/gas-station/rigth.png');
     /* background-image: url('../img/gas-station/rigth.png') no-repeat; */
 }
+
+/* Carrito de compra  */
+
+#shopping_cart > div:nth-child(2) > div:nth-child(6) > div > div:nth-child(3) > div:first-child > div > .btn {
+    background: gray;
+    border-radius: 0;
+    color: white;
+    margin-right: 0.5em;
+}
+
+#shopping_cart > div:nth-child(2) > div:nth-child(6) > div > div:nth-child(3) > div:last-child > div > .btn {
+    background: red;
+    border-radius: 0;
+    color: white;
+    margin-left: 0.5em;
+}
+
+.bnt , .btn-default {
+    border-radius: 0em;
+}
+
+.bnt , .btn-default:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+
+input{
+    text-align: center;
+}
+
 @media (max-width: 1845px) {
     .header-product{
         height: 27em;

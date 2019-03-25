@@ -70,49 +70,46 @@
                         <div class="search"><i class="icon-search"></i></div>
 
                         <!-- User Not Logged - link to login page-->
-                        <div class="user dropdown show">
+                        <div class="user dropdown show ">
                             <a id="userdetails" href="{{ route('micuenta') }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="icon-profile"></i> REGISTRARSE/ LOGIN
                             </a>
                             <a href="cart.html" class="text-primary view-user">View Cart</a>
                             <div aria-labelledby="userdetails" class="dropdown-menu ">
                             <div class="row">
                                 <div class="col-md-4  product-col ">
-                                    <div class="row mb-3 justify-content-md-center"><strong class="text-dark">¿Aun no tienes cuenta?</strong></div>
+                                    <div class="row mb-3 justify-content-md-center "> <h4  class="text-body text-uppercase">¿Aun no tienes cuenta?</h4></div>
                                     <div class="row "> <p class="text-dark" >¡Registrate ahora! es facil y rapido y podras realizar tus compras más rapido </p></div>
                                     <div class="col-md-12">
-                                        {{-- <button type="button" href="{{ route('crear-cuenta') }}" class="btn btn-outline-danger btn-block">Crear cuenta</button> --}}
-
-                                        <a class="btn btn-outline-danger btn-block" href="{{ route('crear-cuenta') }}" >Crear cuenta</a>
+                                        <a class="btn" href="{{ route('crear-cuenta') }}" >Crear cuenta</a>
                                     </div>
                                 </div>
                                 <div class="col-md-8 ">
                                     <div class="col-md-12">
-                                        <div class="row mb-3"><strong class="text-dark">Iniciar sesión</strong></div>
+                                        <div class="row mb-3"><h4 class="text-body text-uppercase">Iniciar sesión</h4></div>
                                         <form>
-
                                             <div class="form-row text-dark">
                                                 <div class="form-group col-md-6">
-                                                    <label for="inputEmail4 ">Email</label>
-                                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                                    <label for="corre "> <small> CORREO ELECTRÓNICO </small> </label>
+                                                    <input type="email" class="form-control" id="corre" placeholder="Email">
                                                 </div>
                                                 <div class="form-group col-md-6">
-                                                    <label for="inputPassword4">Password</label>
-                                                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                                                    <a href="#" class="badge badge-light mt-3">Olvide mi contraseña</a>
+                                                    <label for="contrasena"><small>CONTRASEÑA </small> </label>
+                                                    <input type="password" class="form-control" id="contrasena" placeholder="Password">
+                                                    <a href="#" class=" mt-3">Olvide mi contraseña</a>
                                                     
                                                 </div>
                                                 </div>
 
                                             <div class="container">
                                                 <div class="row align-items-center">
-                                                    <div class="col-md-4">
-                                                        <div class="form-check text-dark">
-                                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                                            <label class="form-check-label" for="exampleCheck1">Recordarme</label>
-                                                        </div>
+                                                    <div class="col-md-4 pl-0">
+                                                        <label class="container_check">RECORDARME
+                                                            <input type="checkbox" >
+                                                            <span class="checkmark"></span>
+                                                        </label>
                                                     </div>
                                                     <div class="col-md-4 offset-md-4 pr-0">
-                                                        <button type="submit" class="btn btn-outline-danger float-md-right ">Iniciar sesión</button>
+                                                        <button type="submit" class="btn float-md-right ">Iniciar sesión</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -122,6 +119,8 @@
                             </div>
                             </div>
                         </div>
+
+                        <!-- Idioma Dropdown-->
                         <div class="dropdown">
                             <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Español <i class="fa fa-chevron-down" aria-hidden="true"></i>
@@ -133,25 +132,129 @@
                         </div>
 
                         <!-- Cart Dropdown-->
-                        <div id="cart" class="cart dropdown show"><a id="cartdetails" href="{{ route('carrito') }}"  aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="icon-cart"></i>
-                            <div class="cart-no">1</div></a><a href="cart.html" class="text-primary view-cart">View Cart</a>
+                        <div id="cart" class="cart dropdown show"><a id="cartdetails" href="{{ route('carrito') }}" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="icon-cart"></i>
+                            <div class="cart-no">2</div></a><a href="cart.html" class="text-primary view-cart">View Cart</a>
                             <div aria-labelledby="cartdetails" class="dropdown-menu">
                             <!-- cart item-->
-                            <div class="dropdown-item cart-product">
-                                <div class="d-flex align-items-center">
-                                <div class="img"><img src="" alt="..." class="img-fluid"></div>
-                                <div class="details d-flex justify-content-between">
-                                    <div class="text"> <a href="#"><strong>Heather Gray Hoodie</strong></a><small>Quantity: 1 </small><span class="price">$75.00 </span></div><a href="#" class="delete"><i class="fa fa-trash-o"></i></a>
+
+                            <div class="dropdown-item cart-product ">
+                                <div class="row justify-content-between border-bottom ">
+                                    <div class="col-md-2 col-2">
+                                        <small>Carrito</small>
+                                    </div>
+                                    <div class="col-md-4 col-4 d-flex justify-content-end">
+                                        <small>2 Productos</small> 
+                                    </div>
                                 </div>
+                                {{-- Producto 1 --}}
+                                <div class="row border-bottom pb-3">
+                                    <div class="d-flex mt-3  ">
+                                        <div class="col-md-3">
+                                            <img class="img-fluid" src="{{asset('assets/img/img-akron.jpg')}}" alt="producto" class="img-fluid">
+                                        </div>
+
+                                        <div class="col-md-9 pl-0 ">
+                                            <div class="details d-flex justify-content-between">
+                                                <div class="text pl-0 ">
+                                                <a href="#"><h4 class="text-body font-weight-bold">AKRON EURO DIESEL</h4></a>
+                                                <small>- SINTETICO </small>
+                                                <small>- ALTO DESEMPEÑO </small>
+                                                <small>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</small>
+                                                </div><a href="#" class="delete"><i class="fa fa-times" aria-hidden="true"></i></a>
+
+                                            </div>
+                                            <div class="row justify-content-between mt-3">
+                                                <div class="col-md-4 px-0">
+                                                    <form action="">
+                                                        <div class="input-group">
+                                                            <span class="input-group-btn">
+                                                                <button type="button" class="btn btn-default" data-value="-1" data-target="#spinner2" data-toggle="spinner">
+                                                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                                                </button>
+                                                            </span>
+                                                            <input type="text" data-ride="spinner" id="spinner2" class="form-control input-number" value="1" data-min="1" data-max="10">
+                                                            <span class="input-group-btn">
+                                                                <button type="button" class="btn btn-default" data-value="2" data-target="#spinner2" data-toggle="spinner" data-on="mousehold">
+                                                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                                                </button>
+                                                            </span>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="col-md-8 d-flex justify-content-end ">
+                                                    <h4 class="text-body font-weight-normal"> $ 159.00 MX</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {{-- Producto 2 --}}
+                                <div class="row border-bottom pb-3">
+                                    <div class="d-flex mt-3  ">
+                                        <div class="col-md-3">
+                                            <img class="img-fluid" src="{{asset('assets/img/img-akron.jpg')}}" alt="producto" class="img-fluid">
+                                        </div>
+
+                                        <div class="col-md-9 pl-0 ">
+                                            <div class="details d-flex justify-content-between">
+                                                <div class="text pl-0 ">
+                                                <a href="#"><h4 class="text-body font-weight-bold">AKRON EURO DIESEL</h4></a>
+                                                <small>- SINTETICO </small>
+                                                <small>- ALTO DESEMPEÑO </small>
+                                                <small>- HASTA 10,000 KILOMETROS ENTRE CAMBIOS</small>
+                                                </div><a href="#" class="delete"><i class="fa fa-times" aria-hidden="true"></i>
+                                                </a>
+
+                                            </div>
+                                            <div class="row justify-content-between mt-3">
+                                                <div class="col-md-4 px-0">
+                                                    <form action="">
+                                                        <div class="input-group">
+                                                            <span class="input-group-btn">
+                                                                <button type="button" class="btn btn-default" data-value="-1" data-target="#spinner3" data-toggle="spinner">
+                                                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                                                </button>
+                                                            </span>
+                                                            <input type="text" data-ride="spinner" id="spinner3" class="form-control input-number" value="1" data-min="1" data-max="10">
+                                                            <span class="input-group-btn">
+                                                                <button type="button" class="btn btn-default" data-value="2" data-target="#spinner3" data-toggle="spinner" data-on="mousehold">
+                                                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                                                </button>
+                                                            </span>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="col-md-8 d-flex justify-content-end ">
+                                                    <h4 class="text-body font-weight-normal"> $ 159.00 MX</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-between align-items-center border-bottom">
+                                    <div class="col-md-4 my-3">
+                                        <small>SUBTOTAL</small>
+                                    </div>
+                                    <div class="col-md-8 d-flex justify-content-end">
+                                        <h4 class="text-body font-weight-normal"> $ 318.00 MX</h4>
+                                    </div>
+                                </div>
+
+                                <div class="row justify-content-between align-items-center ">
+                                    <div class="col-md-6 my-3">
+                                        <h5>TOTAL <small>IMP INCLUIDOS</small></h5>
+                                    </div>
+                                    <div class="col-md-6 d-flex justify-content-end">
+                                        <h4 class="text-body font-weight-bold"> $ 318.00 MX</h4>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <a class="btn btn-block" href="#" role="button">PROCESAR ORDEN</a>
                                 </div>
                             </div>
-                            <!-- total price-->
-                            <div class="dropdown-item total-price d-flex justify-content-between"><span>Total</span><strong class="text-primary">$75.00</strong></div>
-                            <!-- call to actions-->
-                            <div class="dropdown-item CTA d-flex"><a href="cart.html" class="btn btn-template wide">View Cart</a><a href="checkout1.html" class="btn btn-template wide">Checkout</a></div>
+                            
                             </div>
                         </div>
-
                     </div>
                 </div>
                 

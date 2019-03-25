@@ -127,7 +127,7 @@
             <div class="col-md-12 "><input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> </div> 
         </div>
       </div>
-      <div class="col-md-9">
+      <div id="list-products"class="col-md-9">
         <div class="row align-items-center justify-content-between border-bottom border-dark">
           <div class="col-md-2"> 6 Productos </div>
           <div class="col-md-3 justify-content-end d-flex pr-0">
@@ -142,9 +142,8 @@
               </form>
           </div>
         </div>
-        <div class="row">
-          
 
+        <div class="row">
           @foreach ($products as $product )
             <div class="col-md-4 mt-4">
               <img class="img-fluid " src="{{asset($product->img)}}" alt="">
@@ -156,17 +155,19 @@
             </div>
           @endforeach
         </div>
+
         <div class="row align-items-center justify-content-between border-top border-dark ">
           <div class="col-md-2">
               6 Productos
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 pr-0">
 
             {{$products->render()}}
 
           </div>
           
         </div>
+
       </div>
     </div>
   </section>
