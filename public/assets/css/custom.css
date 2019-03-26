@@ -2,6 +2,13 @@
 /* your styles go here */
 /* General */
 
+ .bg-header-gas{
+    background-image: url('../img/gas-station/header.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100% 100%;
+ }
+
 .bg-header{
     background: rgb(0, 45, 94)
 }
@@ -309,8 +316,7 @@ section >div >div > div:nth-child(2) > div > div > div>div:nth-child(6) .form-co
 .header-gas{
     position: relative;
     height: 20em;
-    background-image: url('../img/gas-station/gas_station_2.jpg');
-    background-color: black;
+    background-image: url('../img/gas-station/header.png');
     background-repeat:no-repeat;
     background-position:center;
 }

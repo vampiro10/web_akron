@@ -2,7 +2,28 @@
 
 @section('contenido')
 
-<div class="header-gas text-uppercase">
+<div class="bg-header-gas ">
+    <div class="container ">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{{route('home')}}">HOME</a></li>
+            <li class="breadcrumb-item active" aria-current="page">CARRITO DE COMPRA</li>
+            </ol>
+        </nav>
+        
+        <div class="row lign-items-center">
+            <div class="col-12 text-center txt-instagram a">
+            <h5>CARRITO DE COMPRA</h5>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img class="img-fluid" src="{{asset('assets/img/gas-station/header-gas.png')}}" alt="">
+    </div>
+</div>  
+
+
+{{-- <div class="header-gas text-uppercase">
     <section class="heder_black ">
         <div class="container ">
             <nav aria-label="breadcrumb">
@@ -30,7 +51,7 @@
     
         </svg>
     </div>
-</div>
+</div> --}}
 
 <div id="gas">
 <div class="row bg_0c4479 text-uppercase mt-0 mx-0 ">
