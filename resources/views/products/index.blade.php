@@ -2,7 +2,29 @@
 
 @section('contenido')
 
-<div class="header-product">
+<div id="index_products">
+
+<div class="mb-5">
+    <div class="container ">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{{route('home')}}">HOME</a></li>
+            <li class="breadcrumb-item active" aria-current="page">PRODUCTOS</li>
+            </ol>
+        </nav>
+        
+        <div class="row lign-items-center">
+            <div class="col-12 text-center txt-instagram a">
+            <h5>PRODUCTOS</h5>
+            </div>
+        </div>
+    </div>
+    <div class="mb-3">
+        <img class="img-fluid" src="{{asset('assets/img/header/header_responsive.png')}}" alt="">
+    </div>
+</div>  
+
+{{-- <div class="header-product">
   <section class="fondo-inferior heder_blue ">
     <div class="container ">
         <nav aria-label="breadcrumb">
@@ -28,16 +50,9 @@
       <polygon fill="white" points="100,10 45,21 100,21 100,10"/>
 
     </svg>
-    {{-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100%" height="500" viewBox="0 0 100 100">
-      <polyline points="0,40 40,100 70,10 100,100 120,40 130,70" fill="none" stroke-width="1" stroke="black" stroke-linejoin="mitter" />
-    </svg> --}}
-  
-    {{-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50" preserveAspectRatio="none">
-      <polygon fill="black" points="100,5 50,20 100,10 100,5"/>
-    </svg> --}}
   </div>
 
-</div>
+</div> --}}
 
 <div class="container text-uppercase mt-5">
   <section>
@@ -172,5 +187,7 @@
     </div>
   </section>
 </div>
+</div>
+
 
 @stop

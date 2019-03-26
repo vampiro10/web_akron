@@ -230,6 +230,11 @@ a[class="btn btn-success"]:hover {
 }
 
 /* --- Productos --- */
+#index_products > div:nth-child(1){
+    background-image: url('../img/header/header_products.png');
+    background-repeat:no-repeat;
+    background-position:center;
+}
 
 .heder_blue{
     width: 100%;

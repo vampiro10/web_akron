@@ -460,11 +460,9 @@
                 <div class="info col-md-3">
                     <span>¿QUIÉNES SOMOS?</span>
                     <ul class="social-menu list-inline">
-                    <li class=""><a href="#" target="_blank" title="">- AUTOMÓVILES Y CAMIONETAS</a></li>
-                    <li class=""><a href="#" target="_blank" title="">- MOTOCICLETAS</a></li>
-                    <li class=""><a href="#" target="_blank" title="">- MARINO CREATIVO</a></li>
-                    <li class=""><a href="#" target="_blank" title="">- CARGA Y TRANSPORTE</a></li>
-                    <li class=""><a href="#" target="_blank" title="">- INDUSTRIAL</a></li>
+                    <li>
+                            Somos una empresa mexicana comprometida en mantener tu mundo en movimiento con productos como: AKRONTECH, PitLub, Gasolineras AKRON, AKRON Greenroad, AKRON Spitzen, una amplia gama de lubricantes, aditivos y especialidades para tu automóvil, vehículos de carga pesada y transporte.
+                    </li>
                     </ul>
                 </div>
                 <div class="site-links col-md-3">
