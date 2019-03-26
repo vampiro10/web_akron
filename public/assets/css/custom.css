@@ -241,6 +241,7 @@ a[class="btn btn-success"]:hover {
     background-image: url('../img/header/header_products.png');
     background-repeat:no-repeat;
     background-position:center;
+    /* background-size: 100% 100%; */
 }
 
 .heder_blue{
@@ -322,6 +323,19 @@ section >div >div > div:nth-child(2) > div > div > div>div:nth-child(6) .form-co
 }
 
 /* Gasolineras */
+.bg-estaciones{
+    background: rgb(236, 236, 236)
+}
+
+.bg-cada-litro{
+    position: relative;
+    background-image: url('../img/gas-station/bg_cada_litro.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100% 100%;
+    
+}
+
 #gas > div > div > div:nth-child(2) > div > section > div > div{
     margin-bottom: 1.5em;
 }
@@ -332,16 +346,24 @@ section >div >div > div:nth-child(2) > div > div > div>div:nth-child(6) .form-co
 
 }
 
-#gas section > div > div > div:nth-child(2) > div > div > .row > p span {
-    /* background: #28a745; */
-    color :rgb(0, 61, 167)
+#gas p {
+    font-size: 15px !important; 
 }
-#gas section > div > div > div:nth-child(2) > div > div > .row > p bdi {
+
+#gas > section > div > div > div:nth-child(1) > div > p  span{
+    color :rgb(0, 61, 167);
+}
+
+#gas > section:nth-child(2) > div > div > div:nth-child(2) > div > div:nth-child(2) span{
+    color :rgb(0, 61, 167);
+}
+
+#gas > section > div > div > div:nth-child(2) > div > div:nth-child(2) bdi {
     /* background: #28a745; */
     color :rgb(98, 167, 15)
 }
 
-#gas section > div > div > div:nth-child(2) > div > div > .row > ul {
+#gas > section > div > div > div:nth-child(2) > div > div > .row > ul {
     list-style-image: url('../img/gas-station/rigth.png');
     /* background-image: url('../img/gas-station/rigth.png') no-repeat; */
 }

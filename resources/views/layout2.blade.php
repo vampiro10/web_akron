@@ -466,12 +466,12 @@
                     </ul>
                 </div>
                 <div class="site-links col-md-3">
-                    <span>POLÍTICAS</span>
+                    <span>PRODUCTO</span>
                     <ul class="list-unstyled">
-                    <li> <a href="#">- AVISO DE PRIVACIDAD</a></li>
-                    <li> <a href="#">- ENVÍOS Y DEVOLUCIÓN</a></li>
-                    <li> <a href="#">- TERMINOS Y CONDICIONES</a></li>
-                    <li> <a href="#">- PREGUNTAS FRECUENTES</a></li>
+                    <li> <a href="{{route('productos.index')}}">- PRODUCTOS</a></li>
+                    <li> <a href="{{route('industrial')}}">- INDUSTRIA</a></li>
+                    <li> <a href="{{route('gasolinera')}}">- GASOLINERAS</a></li>
+                    <li> <a href="{{route('home')}}">- DÓNDE COMPRAR</a></li>
                     
 
                     </ul>
@@ -479,11 +479,11 @@
                 <div class="site-links col-md-3">
                     <span>INFORMACIÓN</span>
                     <ul class="list-unstyled">
-                    <li> <a href="#">- ZONA AKRON</a></li>
-                    <li> <a href="{{route('donde-comprar')}}">- DONDE COMPRAR</a></li>
-                    <li> <a href="{{route('blog')}}">- BLOG</a></li>
                     <li> <a href="{{route('empresa')}}">- EMPRESA</a></li>
-                    <li> <a href="#">- CONTACTO</a></li>
+                    <li> <a href="{{route('servicios')}}">- SERVICIOS</a></li>
+                    <li> <a href="{{route('distribuidor')}}">- DISTRIBUIDORES</a></li>
+                    <li> <a href="{{route('blog')}}">- BLOG </a></li>
+                    <li> <a href="{{route('contacto')}}">- CONTACTO</a></li>
                     </ul>
                 </div>
                 <div class="newsletter col-md-3">

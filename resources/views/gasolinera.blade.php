@@ -6,14 +6,15 @@
     <div class="container ">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="{{route('home')}}">HOME</a></li>
-            <li class="breadcrumb-item active" aria-current="page">CARRITO DE COMPRA</li>
+            <li class="breadcrumb-item"><a href="{{route('home')}}">INICIO</a></li>
+            <li class="breadcrumb-item active" aria-current="page">GASOLINERA</li>
             </ol>
         </nav>
         
         <div class="row lign-items-center">
             <div class="col-12 text-center txt-instagram a">
-            <h5>CARRITO DE COMPRA</h5>
+            <h5>GASOLINERA</h5>
+            <h4>COMBUSTIBLE DE ÚLTIMA GENERACION : AKRONTECH</h4>
             </div>
         </div>
     </div>
@@ -22,38 +23,8 @@
     </div>
 </div>  
 
-
-{{-- <div class="header-gas text-uppercase">
-    <section class="heder_black ">
-        <div class="container ">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="{{route('home')}}">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Gasolineras</li>
-                </ol>
-            </nav>
-            
-        <div class="row lign-items-center">
-            <div class="col-12 text-center txt-instagram a">
-            <h5>Gasolineras</h5>
-            <p class="text-white">Combustible de última generación: Akrontech </p>
-            </div>
-        </div>
-        </div>
-    </section>
-    
-    <div class="header-svg">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 22" preserveAspectRatio="none">
-        <polygon class="fill_red" points="0,5 50,20 0,10 0,5"/>
-        <polygon class="fill_red" points="100,5 50,20 100,10 100,5"/>
-        <polygon class="fill_0c4479" points="0,10 55,21 0,21 0,10"/>
-        <polygon class="fill_0c4479" points="100,10 45,21 100,21 100,10"/>
-    
-        </svg>
-    </div>
-</div> --}}
-
 <div id="gas">
+
 <div class="row bg_0c4479 text-uppercase mt-0 mx-0 ">
     <div class="container bg_0c4479 text-uppercase mt-3 mb-5">
         <div class="row mt-4 text-center">
@@ -68,7 +39,7 @@
                             <img class="img-fluid" src="{{asset('assets/img/gas-station/suministro.png')}}" alt="">
                         </div>
                     </div>
-                    <h5 class="text-center"> suministro  garantizado </h5>
+                    <h5 class="text-center text-white"> suministro <br> garantizado </h5>
                 </section>
             </div>
              
@@ -79,7 +50,7 @@
                             <img class="img-fluid" src="{{asset('assets/img/gas-station/combustibles.png')}}" alt="">
                         </div>
                     </div>
-                    <h5 class="text-center"> Combustibles de última generación </h5>
+                    <h5 class="text-center text-white"> Combustibles de última generación </h5>
                 </section>
             </div>
 
@@ -90,7 +61,7 @@
                             <img class="img-fluid" src="{{asset('assets/img/gas-station/gasolineras.png')}}" alt="">
                         </div>
                     </div>
-                    <h5 class="text-center"> el nuevo concepto de gasolineras </h5>
+                    <h5 class="text-center text-white"> el nuevo concepto de gasolineras </h5>
                 </section>
             </div>
 
@@ -101,7 +72,7 @@
                             <img class="img-fluid" src="{{asset('assets/img/gas-station/plataforma.png')}}" alt="">
                         </div>
                     </div>
-                    <h5 class="text-center"> Plataforma de crecimiento </h5>
+                    <h5 class="text-center text-white"> Plataforma de <br> crecimiento </h5>
                 </section>
             </div>
         </div>
@@ -136,6 +107,59 @@
         </div>
     </div>
 </section>
+
+<div class="row bg-cada-litro mt-5  align-items-center justify-content-center mx-0">
+    <div class="container align-items-center justify-content-center">
+        <div class="col-md-12 d-flex justify-content-center">
+            <div class="col-md-2 mt-5">
+                <img class="img-fluid" src="{{asset('assets/img/gas-station/cada_litro.png')}}" alt="">
+            </div>
+        </div>
+        
+        <div class="col-md-12 mt-5 text-center">
+            <h4>CADA LITRO CUENTA</h4>
+        </div>
+        <div class="col-md-12 d-flex justify-content-center mt-5 ">
+            <div class="col-md-6 ">
+                <p class="text-white text-center">Un nuevo concepto de Estación de Servicio que cuida hasta la última gota de combustible. Recibe un suministro completo garantizado, con un combustible que aumenta el rendimiento, mientras cuida el medio ambiente.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section >
+    <div class="container mt-5 ">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-12 col-lg-6 col-xl-6 d-flex align-items-center ">
+                <div class="col-md-12">
+                    <h2 class="text-body mb-3">INSTALACIONES INOVADORAS</h2>
+                    <h5 class="font-weight-light text-justify mb-3">Aumenta el flujo de tu Estación de Servicio, a través de un espacio con diseño único y novedoso</h5>
+                    <p class="text-justify">
+                        <span>AKRON GASOLINERAS®</span> comprende una remodelación que resalta los principales rasgos de tu granquicia para garantizar una imagen de marca atractiva, que capta y complace al cliente mas exigente. 
+                    </p>
+                </div>
+                
+                <div class="row"></div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-12 col-lg-6 col-xl-6 mb-3">
+                <img class="img-fluid mb-3" src="{{asset('assets/img/gas-station/Akron_instalaciones.png')}}" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="row bg-estaciones justify-content-center mx-0 "> 
+        <h2 class="text-body mt-3">ESTACIONES DE SERVICIO</h2>
+
+        
+    </div>
+    <div class="container">
+        
+    </div>
+</section>
+
+
 </div>
       
 @stop
