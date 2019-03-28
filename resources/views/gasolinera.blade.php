@@ -135,7 +135,7 @@
                     <h2 class="text-body mb-3">INSTALACIONES INOVADORAS</h2>
                     <h5 class="font-weight-light text-justify mb-3">Aumenta el flujo de tu Estación de Servicio, a través de un espacio con diseño único y novedoso</h5>
                     <p class="text-justify">
-                        <span>AKRON GASOLINERAS®</span> comprende una remodelación que resalta los principales rasgos de tu granquicia para garantizar una imagen de marca atractiva, que capta y complace al cliente mas exigente. 
+                        <span>AKRON GASOLINERAS®</span> comprende una remodelación que resalta los principales rasgos de tu franquicia para garantizar una imagen de marca atractiva, que capta y complace al cliente mas exigente. 
                     </p>
                 </div>
                 
@@ -148,17 +148,67 @@
     </div>
 </section>
 
-<section>
-    <div class="row bg-estaciones justify-content-center mx-0 "> 
+<section class="bg-estaciones">
+    <div class="row justify-content-center mx-0 "> 
         <h2 class="text-body mt-3">ESTACIONES DE SERVICIO</h2>
 
-        
     </div>
     <div class="container">
+        <div class="row justify-content-center align-items-center" >
+            <div class="col-md-6 ">
+                 <form class="form-inline justify-content-end">
+                    <label class="my-1 mr-2" for="estado">ESTADO : </label>
+                    <select class="custom-select my-1 mr-sm-2" id="estado">
+                        <option selected>Todos</option>
+                        @foreach ($estados as $estado )
+                        <option value="{{$estado->id}}">{{$estado->nom_ent}}</option>
+                        @endforeach
+                    </select>
+                
+                
+                </form> 
+            </div>
+            <div class="col-md-6">
+                <form class="form-inline">
+                    <label class="my-1 mr-2" for="estado">CIUDAD : </label>
+                    <select class="custom-select my-1 mr-sm-2" id="estado">
+                        <option selected>Todos</option>
+                        @foreach ($ciudades as $ciudad )
+                        <option value="{{$ciudad->id}}">{{$ciudad->nom_mun}}</option>
+                        @endforeach
+                    </select>
+                </form> 
+            </div>
+        </div>
         
     </div>
+
+    
+   
 </section>
 
+<div class="row mx-0">
+    <div class="col-md-12 col-sm-12 col-xl-12 px-0">
+        <img class="img-fluid" src="{{asset('assets/img/gas-station/map.png')}}" alt="">
+    </div> 
+</div>
+
+<div class="row mx-0  bg-rgb1071128">
+    <div class="container justify-content-center">
+        <div class="row justify-content-between my-5">
+            <div class="col-md-9 col-sm-9 col-xl-9"> 
+                <h4 class="text-white">FRANQUICIAS</h4>
+                <h6>¿TE INTERESA TRABAJAR CON NOSOTROS? UNETE A LA COMUNIDAD AKRON</h6>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xl-3 d-flex align-items-end ">
+                {{-- <a class="btn" href="{{ route('crear-cuenta') }}" >Crear cuenta</a> --}}
+                <a class="btn btn-custom-red" href="">CONTACTAR</a>
+            </div>
+        </div>
+        
+
+    </div>
+</div>
 
 </div>
       

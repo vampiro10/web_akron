@@ -23,7 +23,12 @@ Route::view('carrito', 'carrito')->name('carrito');
 Route::view('greenroad', 'greenroad')->name('greenroad');
 Route::view('industrial', 'industrial')->name('industrial');
 Route::view('actitud', 'actitud')->name('actitud');
-Route::view('gasolinera', 'gasolinera')->name('gasolinera');
+
+// Gasolineras
+Route::get('gasolinera', 'GasolinaController@index')->name('gasolinera');
+// Route::view('gasolinera', 'gasolinera')->name('gasolinera');
+
+
 Route::view('empresa', 'empresa')->name('empresa');
 Route::view('donde-comprar', 'donde-comprar')->name('donde-comprar');
 Route::view('distribuidor', 'distribuidor')->name('distribuidor');

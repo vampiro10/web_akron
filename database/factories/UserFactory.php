@@ -18,6 +18,7 @@ use Faker\Generator as Faker;
 $factory->define(Product::class, function (Faker $faker) {
     return [
         'nombre'=> $faker->firstName,
+        'img'=>'assets/img/img-akron.jpg',
         'viscosidad' => $faker->randomDigit,
         'presentacion'=> $faker->randomDigit,
         'precio' => $faker->randomFloat($nbMaxDecimals = null, $min = 100, $max = 1000),

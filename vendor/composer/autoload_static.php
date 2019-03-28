@@ -348,7 +348,9 @@ class ComposerStaticInit683fbc3b6b639c8384a012cb7075f007
     );
 
     public static $classMap = array (
+        'App\\Ciudad' => __DIR__ . '/../..' . '/app/Ciudad.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
+        'App\\Estado' => __DIR__ . '/../..' . '/app/Estado.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
@@ -356,6 +358,7 @@ class ComposerStaticInit683fbc3b6b639c8384a012cb7075f007
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\GasolinaController' => __DIR__ . '/../..' . '/app/Http/Controllers/GasolinaController.php',
         'App\\Http\\Controllers\\ProductController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProductController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',

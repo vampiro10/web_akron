@@ -1,16 +1,25 @@
 
 /* your styles go here */
 /* General */
+.btn-custom-red{
+    background: #e31c19;
+    border-radius: 0em;
+    color: #fff;
+} 
 
- .bg-header-gas{
+.btn-custom-red:hover{
+    color: #fff;
+}
+
+.bg-header-gas{
     background-image: url('../img/gas-station/header.png');
     background-repeat:no-repeat;
     background-position:center;
     background-size: 100% 100%;
  }
 
-.bg-header{
-    background: rgb(0, 45, 94)
+.bg-rgb1071128{
+    background: rgb(10, 71, 128)
 }
 
 /* header */
@@ -329,7 +338,7 @@ section >div >div > div:nth-child(2) > div > div > div>div:nth-child(6) .form-co
 
 .bg-cada-litro{
     position: relative;
-    background-image: url('../img/gas-station/bg_cada_litro.png');
+    background-image: url('../img/gas-station/gas-station-desp.jpeg');
     background-repeat:no-repeat;
     background-position:center;
     background-size: 100% 100%;
