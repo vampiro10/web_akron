@@ -4,7 +4,7 @@
 
 <div id="index_products">
 
-<div class="mb-5">
+<div class="mb-5 header-img-akron">
     <div class="container ">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">

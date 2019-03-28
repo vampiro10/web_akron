@@ -323,7 +323,7 @@
                         <li class="nav-item "><a href="{{ route('gasolinera') }}" class="nav-link {{ activeMenu('gasolinera')}}">Gasolinera</a>
 
                         <!-- Megamenu Servicios-->
-                        <li id="dp" class="nav-item dropdown "><a href="{{ route('servicios') }}" disabled="disabled" class="nav-link {{ activeMenu('servicios')}}">Servicios</a>
+                        <li id="dp" class="nav-item dropdown "><a href="{{ route('servicios') }}" disabled="disabled" class="nav-link  {{ activeMenu('servicios')}} {{ activeMenu('servicios/zona')}}{{ activeMenu('servicios/pitlub')}}">Servicios</a>
                             <div id="service" class="dropdown-menu megamenu ">
                             <div class="row">
                                 <div class="col-md-6 product-col ">

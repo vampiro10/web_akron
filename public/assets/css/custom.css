@@ -1,6 +1,9 @@
 
 /* your styles go here */
 /* General */
+.ul-custom{
+    list-style-image: url('../img/gas-station/rigth.png');
+}
 .btn-custom-red{
     background: #e31c19;
     border-radius: 0em;
@@ -8,6 +11,10 @@
 } 
 
 .btn-custom-red:hover{
+    color: #fff;
+}
+
+.btn-custom-red:focus{
     color: #fff;
 }
 
@@ -246,11 +253,11 @@ a[class="btn btn-success"]:hover {
 }
 
 /* --- Productos --- */
-#index_products > div:nth-child(1){
+
+.header-img-akron{
     background-image: url('../img/header/header_products.png');
     background-repeat:no-repeat;
     background-position:center;
-    /* background-size: 100% 100%; */
 }
 
 .heder_blue{

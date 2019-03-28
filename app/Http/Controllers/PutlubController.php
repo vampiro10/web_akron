@@ -5,11 +5,8 @@ namespace App\Http\Controllers;
 use App\Ciudad;
 use App\Estado;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
-
-
-class GasolinaController extends Controller
+class PutlubController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -18,10 +15,10 @@ class GasolinaController extends Controller
      */
     public function index()
     {
-       $estados = Estado::all();
-       $ciudades = Ciudad::all();
+        $estados = Estado::all();
+        $ciudades = Ciudad::all();
 
-       return view('gasolinera', compact('estados','ciudades'));
+        return view('servicios.pitlub', compact('estados','ciudades'));
     }
 
     /**
