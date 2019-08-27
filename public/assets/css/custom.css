@@ -1,470 +1,2461 @@
 
+
 /* your styles go here */
+
 /* General */
+
 .ul-custom{
+
     list-style-image: url('../img/gas-station/rigth.png');
+
 }
+
 .btn-custom-red{
+
     background: #e31c19;
+
     border-radius: 0em;
+
     color: #fff;
+
 } 
 
+
+
 .btn-custom-red:hover{
+
     color: #fff;
+
 }
+
+
 
 .btn-custom-red:focus{
+
     color: #fff;
+
 }
+
+
 
 .bg-header-gas{
+
     background-image: url('../img/gas-station/header.png');
+
     background-repeat:no-repeat;
+
     background-position:center;
+
     background-size: 100% 100%;
- }
+
+}
+
+
+
+.bg-header-actitud{
+
+    background-image: url('../img/actitud/banner.png');
+
+    background-repeat:no-repeat;
+
+    background-position:center;
+
+    background-size: 100% 100%;
+
+}
+
+
 
 .bg-rgb1071128{
+
     background: rgb(10, 71, 128)
+
 }
+
+
 
 /* header */
 
-    /* login */
+
+
+/* login */
+
+
 
 header > nav > div:nth-child(2) > div > div:nth-child(2) > div > div > div > div:nth-child(3) a {
+
     background:red;
+
     border-radius: 0em;
+
+    color: #fff;
+
+
+
+}
+
+
+
+
+
+header > nav > div:nth-child(2) > div > div:nth-child(2) > div > div > div:nth-child(2) > div > form input {
+
+    border-radius: 0em;
+
+    background: #fff;
+
+}
+
+
+
+header > nav > div:nth-child(2) > div > div:nth-child(2) > div > div > div:nth-child(2) > div > form a:hover {
+
+    background: #fff;
+
+    color: black;
+
+}
+
+
+
+header > nav > div:nth-child(2) > div > div:nth-child(2) > div > div > div:nth-child(2) > div > form .btn {
+
+    background: red;
+
+    color: #fff;
+
+    border-radius: 0em;
+
+}
+
+
+
+/* The container */
+
+.container_check {
+
+    display: block;
+
+    position: relative;
+
+    padding-left: 35px;
+
+    margin-bottom: 12px;
+
+    cursor: pointer;
+
+    font-size: 22px;
+
+    -webkit-user-select: none;
+
+    -moz-user-select: none;
+
+    -ms-user-select: none;
+
+    user-select: none;
+
+    color: black;
+
+    font-weight: lighter;
+
+    font-size: 15px;
+
+}
+
+/* Hide the browser's default checkbox */
+
+.container_check input {
+
+    position: absolute;
+
+    opacity: 0;
+
+    cursor: pointer;
+
+    height: 0;
+
+    width: 0;
+
+}
+
+
+
+/* Create a custom checkbox */
+
+.checkmark {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    height: 25px;
+
+    width: 25px;
+
+    background-color: #eee;
+
+}
+
+
+
+/* On mouse-over, add a grey background color */
+
+.container_check:hover input ~ .checkmark {
+
+    background-color: #ccc;
+
+}
+
+/* When the checkbox is checked, add a blue background */
+
+.container_check input:checked ~ .checkmark {
+
+    background-color: red;
+
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+
+    content: "";
+
+    position: absolute;
+
+    display: none;
+
+}
+
+
+
+/* Show the checkmark when checked */
+
+.container_check input:checked ~ .checkmark:after {
+
+    display: block;
+
+}
+
+
+
+/* Style the checkmark/indicator */
+
+.container .checkmark:after {
+
+    left: 9px;
+
+    top: 5px;
+
+    width: 5px;
+
+    height: 10px;
+
+    border: solid white;
+
+    border-width: 0 3px 3px 0;
+
+    -webkit-transform: rotate(45deg);
+
+    -ms-transform: rotate(45deg);
+
+    transform: rotate(45deg);
+
+}
+
+
+
+.checkmark:after {
+
+    left: 9px;
+
+    top: 5px;
+
+    width: 5px;
+
+    height: 10px;
+
+    border: solid white;
+
+    border-width: 0 3px 3px 0;
+
+    -webkit-transform: rotate(45deg);
+
+    -ms-transform: rotate(45deg);
+
+    transform: rotate(45deg);
+
+}
+
+
+
+/* login END */
+
+
+
+header > nav > div:nth-child(2) > div div:nth-child(4) > div > div > div:nth-child(6) .btn {
+
+    /* background: #28a745; */
+
+    background: red;
+
+    border-radius: 0em;
+
+    padding-top: .5em;
+
+    padding-bottom: .5em;
+
+    color: #fff !important;
+
+}
+
+
+
+header > nav > div:nth-child(2) > div div:nth-child(4) > div > div > div div:nth-child(2) > div > form > div .btn{
+
+    border-radius: 0em;
+
+    font-size: .7em;
+
+    padding: .5em;
+
+}
+
+
+
+header > nav > div:nth-child(2) > div div:nth-child(4) > div > div > div div:nth-child(2) > div > form > div .btn:focus{
+
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+
+}
+
+
+
+header > nav > div:nth-child(2) > div div:nth-child(4) > div > div > div div:nth-child(2) > div > form > div input{
+
+    margin-top: .3em; 
+
+    height: 1.7em;
+
+    text-align: center;
+
+}
+
+
+
+header > nav > div:nth-child(2) > div div:nth-child(4) > div{
+
+    padding-top: .1em !important;
+
+    padding-bottom: .5em !important;
+
+    padding-left: 1em !important;
+
+    padding-right: 1em !important;
+
+}
+
+
+
+header > nav >div:nth-child(2) > div >div:nth-child(3) a {
+
+    padding: .25rem 1.5rem;
+
+    color: #212529;
+
+    margin-bottom: 0em;
+
+}
+
+
+
+header > nav >div:nth-child(2) > div >div:nth-child(3) > div a:hover {
+
+    color: red;
+
+}
+
+
+
+header > nav >div:nth-child(2) > div >div:nth-child(3) > div  {
+
+    margin-top: 0 !important;
+
+}
+
+
+
+ul{
+
+    width: 100%;
+
+}
+
+
+
+header > nav{
+
+    flex-flow: nowrap !important;
+
+    position: relative !important;
+
+    display: block!important;
+
+    align-items: center !important;
+
+}
+
+
+
+.top-sm {
+
+    width: 100%;
+
+}
+
+
+
+
+
+/* --- Menu--- */
+
+#banner_akron div:nth-child(2) .form-control{
+
+    /* background-color: greenyellow !important; */
+
+    background-color: #fff;
+
+    background-clip: padding-box;
+
+    border-radius: .25rem;
+
+}
+
+
+
+#mt-19em {
+
+    margin-top: 11em;
+
+    /* background: greenyellow; */
+
+}
+
+
+
+
+
+.green{
+
+    color: greenyellow ;
+
+}
+
+
+
+#service  p , #products p , #industria p {
+
+    color: white;
+
+    /* background: greenyellow; */
+
+}
+
+
+
+/* Home */
+
+
+
+a[class="btn btn-danger"] {
+
+
+
+    color: #fff !important;
+
+    border-radius: 0px;
+
+
+
+}
+
+
+
+a[class="btn btn-danger"]:hover {
+
+    color: #fff !important;
+
+    background: #dc3545 !important;
+
+}
+
+
+
+a[class="btn btn-success"] {
+
+    color: #fff !important;
+
+    border-radius: 0;
+
+
+
+}
+
+a[class="btn btn-success"]:hover {
+
+    background: #28a745;
+
+
+
+}
+
+
+
+.post_triangulo_top_left {
+
+    width: 40px;
+
+    height: 0;
+
+    border-top: 30px solid #0071c3;
+
+    border-right: 30px solid transparent;
+
+    z-index: 2;
+
+}
+
+
+
+/*------ EMPRESA----------- */
+
+.fondo{
+
+    background-color: #F2F2F2;
+
+}
+
+.cajita-azul{
+
+    border: 1px solid #275098;
+
+    color: #275098;
+
+    padding: 5px;
+
+    font-size: 13px;
+
+    line-height: 0.8rem;
+
+}
+
+.headerCard{
+
+    color: #808080;
+
+    content: "+";
+
+    font-weight: 400;
+
+
+
+}
+
+.headerCard:after{
+
+    color: #FF0000;
+
+
+
+}
+
+.cardbodyp{
+
+    color: #808080;
+
+}
+
+.titulomito{
+
+    color: #fff;
+
+    font-weight: 600;
+
+    font-size: 1.5rem;
+
+}
+
+.recuadro {
+
+    margin: 50px;
+
+    padding: 20px;
+
+    position: relative;    
+
+    width: 220px;
+
+    background-color: #004D94;
+
+    color: #004D94;
+
+    margin: 20px;
+
+}
+
+.recuadro:after {
+
+    content: "";
+
+    position: absolute;
+
+   top: 100%;
+
+   left: 20px;
+
+   border-top: 20px solid #004D94;
+
+   border-top-color: inherit;
+
+   border-left: 20px solid transparent;
+
+   
+
+}
+
+.textorecuadro{
+
+    color: #ffffff;
+
+}
+
+.borderecuadro{
+
+    border:  1px solid #004D94;
+
+    width: 220px;
+
+    left: 20px;
+
+    padding: 20px;
+
+    position: relative;
+
+    top: -30px;
+
+}   
+
+.textocontenido{
+
+   color:  #000000;
+
+}
+
+.titulorealidad{
+
+    color: #000;
+
+    font-weight: 600;
+
+    font-size: 1.5rem;
+
+}
+
+
+
+.acordeon{
+
+    border-top: 3px solid #ccc;
+
+    border-bottom: 1px solid #ccc;
+
+   padding: 10px;
+
+}
+
+
+
+/*----- BLOG----------------*/
+
+.titulo{
+
+	color:#212529;
+
+}
+
+.date{
+
+	float:left;
+
+}
+
+.readmore{
+
+	float:right;
+
+	color:#FF0000;
+
+}
+
+.paginador{
+
+	margin-top: 10px;
+
+	color: #7F7F7F !important; 
+
+}
+
+
+
+/* estilos columna derecha*/
+
+.tags{
+
+ background-color:#fff;
+
+ color: #7F7F7F; 
+
+ padding: 10px;
+
+ border: 1px solid #7F7F7F;
+
+ margin: 2px;
+
+}
+
+.tags:hover{
+
+ background-color:#FF0000;
+
+ color: #FFF; padding: 10px;
+
+}
+
+.cajitas {
+
+	margin: 10px;
+
+}
+
+.btn-blog{
+
+	width: 60px;
+
+    padding: 8px 0px;
+
+    background-color: #FF0000;
+
+	border:  none;
+
+    font-size: 14px;
+
+    font-weight: lighter;
+
+    color: #fff !important;
+
+	margin: 5px;
+
+}
+
+.tagicon{
+
+	color: #000;
+
+}
+
+
+
+/* donde comprar estilos */
+
+
+
+.botonmapa{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;   
+
+}
+
+.estiloboton{
+
+    padding: 1px 10px 1px 10px;
+
+    font-size: 1.8rem;
+
+    border: 1px solid #bbb;
+
+}
+
+.estiloboton2{
+
+    padding: 1px 10px 1px 10px;
+
+    font-size: 1.8rem;
+
+    border: 1px solid #FF0000;
+
+    color: #FF0000;
+
+}
+
+.vermapa{
+
+    color: #FF0000;
+
+}
+
+.tituloDir{
+
+    color: #000;
+
+    font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+
+/* --- Productos --- */
+
+
+
+.header-img-akron{
+
+    background-image: url('../img/header/header_products.png');
+
+    background-repeat:no-repeat;
+
+    background-position:center;
+
+}
+
+
+
+.heder_blue{
+
+    width: 100%;
+
+    height:100%;
+
+    opacity: .5;
+
+    background: #0A4786;
+
+}
+
+
+
+.heder_black{
+
+    width: 100%;
+
+    height:100%;
+
+    opacity: .5;
+
+    background-color: black;
+
+}
+
+.header-svg{
+
+    z-index: 10;
+
+    position: absolute;
+
+    width: 100%;
+
+    height: 100%;
+
+    top: 3em;
+
+}
+
+
+
+@media (min-width: 300px) and (max-width: 359px) {
+
+    .header-svg{
+
+        top: 15.5em;
+
+    }
+
+}
+
+
+
+@media (min-width: 360px) and (max-width: 374px) {
+
+    .header-svg{
+
+        top: 14.7em;
+
+    }
+
+}
+
+
+
+@media (min-width: 375px) and (max-width: 499px) {
+
+    .header-svg{
+
+        top: 15.1em;
+
+    }
+
+}
+
+
+
+@media (min-width: 500px) and (max-width: 520px) {
+
+    .header-svg{
+
+        top: 14em;
+
+    }
+
+}
+
+
+
+@media (min-width: 520px) and (max-width: 720px) {
+
+    .header-svg{
+
+        top: 12em;
+
+    }
+
+}
+
+
+
+@media (min-width: 721px) and (max-width: 980px) {
+
+    .header-svg{
+
+        top: 8em;
+
+    }
+
+}
+
+
+
+.tooltip.in{
+
+    filter:alpha(opacity=90);
+
+    opacity:.9
+
+}
+
+
+
+section >div >div > div:nth-child(2) > div > div > div>div:nth-child(6) button {
+
+    /* background: green; */
+
+    border-radius: 2px;
+
+    height: 38px;
+
+}
+
+
+
+section >div >div > div:nth-child(2) > div > div > div>div:nth-child(6) .form-control {
+
+    padding-top: 0;
+
+    padding-bottom: 0;
+
+}
+
+
+
+.header-product{
+
+    position: relative;
+
+    height: 20em;
+
+    background-image: url('../img/empresa/banner_01.jpg');
+
+    background-repeat:no-repeat;
+
+    background-position:center;
+
+}
+
+
+
+.custom-select {
+
+    border-radius: 0px;
+
+}
+
+
+
+#list-products div:nth-child(3) > div:nth-child(2) > ul {
+
+    margin-top: 1em;
+
+    justify-content: flex-end !important;
+
+    /* background: greenyellow; */
+
+}
+
+#list-products div:nth-child(3) > div:nth-child(2) > ul li{ 
+
+    margin-left: 1em;
+
+    margin-right: 1em;
+
+    color: black;
+
+}
+
+
+
+#list-products div:nth-child(3) > div:nth-child(2) > ul li a{ 
+
+    color: black;
+
+}
+
+
+
+#list-products div:nth-child(3) > div:nth-child(2) > ul li:last-child{
+
+
+
+    margin-right: 0em;
+
+}
+
+
+
+/* Products End */
+
+
+
+.header-gas{
+
+    position: relative;
+
+    height: 20em;
+
+    background-image: url('../img/gas-station/header.png');
+
+    background-repeat:no-repeat;
+
+    background-position:center;
+
+    background-size: cover;
+
+}
+
+
+
+/* Gasolineras */
+
+.bg-estaciones{
+
+    background: rgb(236, 236, 236)
+
+}
+
+
+
+.bg-cada-litro{
+
+    position: relative;
+
+    background-image: url('../img/gas-station/gas-station-desp.jpeg');
+
+    background-repeat:no-repeat;
+
+    background-position:center;
+
+    background-size: 100% 100%;
+
+
+
+}
+
+
+
+#gas > div > div > div:nth-child(2) > div > section > div > div{
+
+    margin-bottom: 1.5em;
+
+}
+
+
+
+#gas > div > div > div:nth-child(2) > div > section {
+
+    border: solid 1px;
+
+    border-color: rgba(0, 168, 226, 255);
+
+
+
+}
+
+
+
+#gas p {
+
+    font-size: 15px !important; 
+
+}
+
+
+
+#gas > section > div > div > div:nth-child(1) > div > p  span{
+
+    color :rgb(0, 61, 167);
+
+}
+
+
+
+#gas > section:nth-child(2) > div > div > div:nth-child(2) > div > div:nth-child(2) span{
+
+    color :rgb(0, 61, 167);
+
+}
+
+
+
+#gas > section > div > div > div:nth-child(2) > div > div:nth-child(2) bdi {
+
+    /* background: #28a745; */
+
+    color :rgb(98, 167, 15)
+
+}
+
+
+
+#gas > section > div > div > div:nth-child(2) > div > div > .row > ul {
+
+    list-style-image: url('../img/gas-station/rigth.png');
+
+    /* background-image: url('../img/gas-station/rigth.png') no-repeat; */
+
+}
+
+
+
+/* Actitud */
+
+#actitud-abs > div > div > div:nth-child(2) > div > section > div > div{
+
+    margin-bottom: 1.5em;
+
+}
+
+
+
+#actitud-abs > div > div > div:nth-child(2) > div > section {
+
+    border: solid 1px;
+
+    border-color: rgba(0, 168, 226, 255);
+
+
+
+}
+
+
+
+#actitud-abs p {
+
+    font-size: 11px !important;
+
+    font-weight: lighter;
+
+}
+
+
+
+#actitud-abs > section > div > div > div:nth-child(1) > div > p  span{
+
+    color :rgb(0, 61, 167);
+
+}
+
+
+
+#actitud-abs > section:nth-child(2) > div > div > div:nth-child(2) > div > div:nth-child(2) span{
+
+    color :rgb(0, 61, 167);
+
+}
+
+
+
+#actitud-abs > section > div > div > div:nth-child(2) > div > div:nth-child(2) bdi {
+
+    /* background: #28a745; */
+
+    color :rgb(98, 167, 15)
+
+}
+
+
+
+#actitud-abs > section > div > div > div:nth-child(2) > div > div > .row > ul {
+
+    list-style-image: url('../img/gas-station/rigth.png');
+
+    /* background-image: url('../img/gas-station/rigth.png') no-repeat; */
+
+}
+
+.absoluta-det-banner {
+
+    background-image: url('../img/actitud/banner-detail.png');
+
+    background-repeat:no-repeat;
+
+    background-position:center;
+
+    height:410px;
+
+}
+
+.rog-border {
+
+    border: 1px solid;
+
+}
+
+.text-black-bold {
+
+    color: #000 !important;
+
+    font-weight: bold;
+
+}
+
+.actitud-brand-img > div > a > img {
+
+    height: 60px;
+
+    width: auto;
+
+}
+
+.bg-gray-absolud{
+
+    background: rgb(236, 236, 236)
+
+}
+
+.tbl-calendario tr th {
+
+    background-color: #0067AF;
+
     color: #fff;
 
 }
 
+.tbl-calendario tr td {
 
-header > nav > div:nth-child(2) > div > div:nth-child(2) > div > div > div:nth-child(2) > div > form input {
-    border-radius: 0em;
-    background: #fff;
+
+
 }
 
-header > nav > div:nth-child(2) > div > div:nth-child(2) > div > div > div:nth-child(2) > div > form a:hover {
-    background: #fff;
-    color: black;
-}
+/*.actitid-galeria img {
 
-header > nav > div:nth-child(2) > div > div:nth-child(2) > div > div > div:nth-child(2) > div > form .btn {
-   background: red;
-   color: #fff;
-   border-radius: 0em;
-}
-
-/* The container */
-.container_check {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    color: black;
-    font-weight: lighter;
-    font-size: 15px;
-  }
-/* Hide the browser's default checkbox */
-.container_check input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-  }
-
-/* Create a custom checkbox */
-.checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-}
-
-/* On mouse-over, add a grey background color */
-.container_check:hover input ~ .checkmark {
-    background-color: #ccc;
-  }
-/* When the checkbox is checked, add a blue background */
-.container_check input:checked ~ .checkmark {
-    background-color: red;
-  }
-/* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-
-/* Show the checkmark when checked */
-.container_check input:checked ~ .checkmark:after {
-    display: block;
-  }
-
-/* Style the checkmark/indicator */
-.container .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-
-.checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-
-    /* login END */
-
-header > nav > div:nth-child(2) > div div:nth-child(4) > div > div > div:nth-child(6) .btn {
-    /* background: #28a745; */
-    background: red;
-    border-radius: 0em;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    color: #fff !important;
-}
-
-header > nav > div:nth-child(2) > div div:nth-child(4) > div > div > div div:nth-child(2) > div > form > div .btn{
-    border-radius: 0em;
-    font-size: .7em;
-    padding: .5em;
-}
-
-header > nav > div:nth-child(2) > div div:nth-child(4) > div > div > div div:nth-child(2) > div > form > div .btn:focus{
-    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
-}
-
-header > nav > div:nth-child(2) > div div:nth-child(4) > div > div > div div:nth-child(2) > div > form > div input{
-   margin-top: .3em; 
-   height: 1.7em;
-   text-align: center;
-}
-
-header > nav > div:nth-child(2) > div div:nth-child(4) > div{
-    padding-top: .1em !important;
-    padding-bottom: .5em !important;
-    padding-left: 1em !important;
-    padding-right: 1em !important;
-}
-
-header > nav >div:nth-child(2) > div >div:nth-child(3) a {
-    padding: .25rem 1.5rem;
-    color: #212529;
-    margin-bottom: 0em;
-}
-
-header > nav >div:nth-child(2) > div >div:nth-child(3) > div a:hover {
-    color: red;
-}
-
-header > nav >div:nth-child(2) > div >div:nth-child(3) > div  {
-    margin-top: 0 !important;
-}
-
-ul{
     width: 100%;
+
+    height: auto;
+
+}*/
+
+/* The grid: Four equal columns that floats next to each other */
+
+.actitid-galeria img {
+
+    float: 450px;
+
+    padding: 2px;
+
+    width: 450px;
+
+    height: 300px;
+
+    display: block;
+
+    clear:both;
+
 }
 
-header > nav{
-    flex-flow: nowrap !important;
-    position: relative !important;
-    display: block!important;
-    align-items: center !important;
+
+
+/* Style the images inside the grid */
+
+.actitid-galeria img {
+
+    opacity: 0.8;
+
+    cursor: pointer;
+
 }
 
 
-/* --- Menu--- */
-#banner_akron div:nth-child(2) .form-control{
-    /* background-color: greenyellow !important; */
+
+.actitid-galeria img:hover {
+
+    opacity: 1;
+
+}
+
+.absolute-conectate {
+
     background-color: #fff;
-    background-clip: padding-box;
-    border-radius: .25rem;
-}
 
-#mt-19em {
-    margin-top: 11em;
-    /* background: greenyellow; */
-}
-
-
-.green{
-    color: greenyellow ;
-}
-
-#service  p , #products p , #industria p {
-    color: white;
-    /* background: greenyellow; */
-}
-
-/* Home */
-
-a[class="btn btn-danger"] {
-   
-    color: #fff !important;
-    border-radius: 0px;
-    
-  }
-
-a[class="btn btn-danger"]:hover {
-    color: #fff !important;
-    background: #dc3545 !important;
-}
-
-a[class="btn btn-success"] {
-    color: #fff !important;
-    border-radius: 0;
-    
-}
-a[class="btn btn-success"]:hover {
-    background: #28a745;
-    
-}
-
-.post_triangulo_top_left {
-    width: 40px;
-    height: 0;
-    border-top: 30px solid #0071c3;
-    border-right: 30px solid transparent;
-    z-index: 2;
-}
-
-/* --- Productos --- */
-
-.header-img-akron{
-    background-image: url('../img/header/header_products.png');
-    background-repeat:no-repeat;
-    background-position:center;
-}
-
-.heder_blue{
-    width: 100%;
-    height:100%;
-    opacity: .9;
-}
-
-.heder_black{
-    width: 100%;
-    height:100%;
-    opacity: .5;
-    background-color: black;
-}
-.header-svg{
-    z-index: 10;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 3em;
-}
-
-.tooltip.in{
-    filter:alpha(opacity=90);
-    opacity:.9
-}
-
-section >div >div > div:nth-child(2) > div > div > div>div:nth-child(6) button {
-    /* background: green; */
-    border-radius: 2px;
-    height: 38px;
-}
-
-section >div >div > div:nth-child(2) > div > div > div>div:nth-child(6) .form-control {
-   padding-top: 0;
-   padding-bottom: 0;
-}
-
-.header-product{
-    position: relative;
-    height: 20em;
-    background-image: url('../img/empresa/banner_01.jpg');
-    background-repeat:no-repeat;
-    background-position:center;
-}
-
-.custom-select {
-    border-radius: 0px;
-}
-
-#list-products div:nth-child(3) > div:nth-child(2) > ul {
-    margin-top: 1em;
-    justify-content: flex-end !important;
-    /* background: greenyellow; */
-}
-#list-products div:nth-child(3) > div:nth-child(2) > ul li{ 
-    margin-left: 1em;
-    margin-right: 1em;
-    color: black;
-}
-
-#list-products div:nth-child(3) > div:nth-child(2) > ul li a{ 
-    color: black;
-}
-
-#list-products div:nth-child(3) > div:nth-child(2) > ul li:last-child{
-    
-    margin-right: 0em;
-}
-
-/* Products End */
-
-.header-gas{
-    position: relative;
-    height: 20em;
-    background-image: url('../img/gas-station/header.png');
-    background-repeat:no-repeat;
-    background-position:center;
-}
-
-/* Gasolineras */
-.bg-estaciones{
-    background: rgb(236, 236, 236)
-}
-
-.bg-cada-litro{
-    position: relative;
-    background-image: url('../img/gas-station/gas-station-desp.jpeg');
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size: 100% 100%;
-    
-}
-
-#gas > div > div > div:nth-child(2) > div > section > div > div{
-    margin-bottom: 1.5em;
-}
-
-#gas > div > div > div:nth-child(2) > div > section {
-    border: solid 1px;
-    border-color: rgba(0, 168, 226, 255);
-
-}
-
-#gas p {
-    font-size: 15px !important; 
-}
-
-#gas > section > div > div > div:nth-child(1) > div > p  span{
-    color :rgb(0, 61, 167);
-}
-
-#gas > section:nth-child(2) > div > div > div:nth-child(2) > div > div:nth-child(2) span{
-    color :rgb(0, 61, 167);
-}
-
-#gas > section > div > div > div:nth-child(2) > div > div:nth-child(2) bdi {
-    /* background: #28a745; */
-    color :rgb(98, 167, 15)
-}
-
-#gas > section > div > div > div:nth-child(2) > div > div > .row > ul {
-    list-style-image: url('../img/gas-station/rigth.png');
-    /* background-image: url('../img/gas-station/rigth.png') no-repeat; */
 }
 
 /* Carrito de compra  */
 
+
+
 #shopping_cart > div:nth-child(2) > div:nth-child(6) > div > div:nth-child(3) > div:first-child > div > .btn {
+
     background: gray;
+
     border-radius: 0;
+
     color: white;
+
     margin-right: 0.5em;
+
 }
+
+
 
 #shopping_cart > div:nth-child(2) > div:nth-child(6) > div > div:nth-child(3) > div:last-child > div > .btn {
+
     background: red;
+
     border-radius: 0;
+
     color: white;
+
     margin-left: 0.5em;
+
 }
+
+
 
 .bnt , .btn-default {
+
     border-radius: 0em;
+
 }
+
+
 
 .bnt , .btn-default:focus {
+
     box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+
 }
+
+
 
 input{
+
     text-align: center;
+
 }
+
+
 
 @media (max-width: 1845px) {
+
     .header-product{
+
         height: 27em;
+
     }
+
 }
+
+
 
 @media (max-width: 1366px) {
+
     .header-product{
+
         height: 20em;
+
     }
+
 }
+
+
 
 @media (max-width: 1120px) {
+
     .header-product{
+
         height: 17em;
+
     }
+
 }
+
+
 
 @media (max-width: 992px){
+
     #mt-19em {
+
         margin-top: 1em;
+
     }
+
     .header-product{
+
         height: 15.4em;
+
     }
+
 }
+
+
 
 @media (max-width: 768px) {
+
     .header-product{
+
         height: 13em;
+
     }
+
 }
+
+
 
 @media (max-width: 575px) {
+
     .header-product{
+
         height: 10.1em;
+
     }
+
 }
+
+
 
 @media (max-width: 380px) {
+
     .header-product{
+
         height: 7.9em;
+
     }
+
 }
+
+
 
 .fill_red{
+
     fill: rgba(225, 37, 28, 255)
+
 }
+
+
 
 .fill_0c4479{
+
     fill: rgba(10, 71, 128, 255)
+
 }
 
+
+
 .bg_0c4479{
+
     background-color: rgba(10, 71, 128, 255)
+
+}
+
+
+
+
+
+/*DISTRIBUIDOR*/
+
+
+
+.fill_black{
+
+    fill: rgba(0, 0, 0, 1);
+
+}
+
+
+
+.fill_white {
+
+    fill: rgba(255,255,255,1);
+
+}
+
+
+
+.header-crear-cuenta {
+
+    position: relative;
+
+    height: 20em;
+
+    background-color: #022C5E;
+
+}
+
+
+
+
+
+.header-distribuidor {
+
+    position: relative;
+
+    height: 19em;
+
+    background-image: url('../img/distribuidores-images/dist-banner.png');
+
+    background-repeat:no-repeat;
+
+    background-position:center;
+
+    background-size: cover;
+
+}
+
+
+
+.header-distribuidor:after {
+
+    content: "";
+
+    position: absolute;
+
+    width: 100%;
+
+    height: 100%;
+
+    left: 0;
+
+    top: 0;
+
+    right: 0;
+
+    bottom: 0;
+
+    background: rgba(10,71,134, .8);
+
+}
+
+
+
+.header-distribuidor .container {
+
+    height: 20em;
+
+}
+
+
+
+.header-distribuidor .container .heder-breadcrumb,
+
+.header-distribuidor .container .heder-title {
+
+    position: relative;
+
+    z-index: 9;
+
+}
+
+
+
+.heder-breadcrumb .breadcrumb .breadcrumb-item {
+
+    font-size: 0.75rem;
+
+}
+
+
+
+.tn {
+
+    font-size: 0.90rem;
+
+}
+
+
+
+nav.navbar .cart-no {
+
+    min-width: 15px;
+
+    min-height: 15px;
+
+    font-size: 0.5em;
+
+}
+
+
+
+.heder-title {
+
+    height: 13em;
+
+}
+
+
+
+.main {
+
+    margin-top: 3em;
+
+    margin-bottom: 3em;
+
+}
+
+
+
+.titulo-distribucion h3 {
+
+    color: #000;
+
+    font-weight: lighter;
+
+    text-transform: uppercase;
+
+    margin-bottom: 0;
+
+}
+
+
+
+.titulo-distribucion p {
+
+    text-transform: uppercase;
+
+    font-weight: bold;
+
+}
+
+
+
+.main-ventajas {
+
+    margin-top: 2em;
+
+}
+
+
+
+.main-ventajas .distribuidor-ventajas ul {
+
+    font-weight: lighter;
+
+    list-style: none;
+
+}
+
+
+
+.main-ventajas .distribuidor-ventajas ul li {
+
+    margin-bottom: 1em;
+
+}
+
+
+
+.main-ventajas .distribuidor-ventajas ul li:before {
+
+    font-family: 'FontAwesome';
+
+    content: '\f061';
+
+    margin: 0 3px 0 -15px;
+
+    color: #004D95;
+
+}
+
+
+
+.distribuidor-banner,
+
+.industria-info-banner {
+
+    background: -webkit-linear-gradient(
+
+        #0A4786,
+
+        #193964
+
+    );
+
+    background: -o-linear-gradient(
+
+        #0A4786,
+
+        #193964
+
+    );
+
+    background: linear-gradient(
+
+        #0A4786,
+
+        #193964
+
+    );
+
+}
+
+
+
+.dist-middle-img img {
+
+    width: 100%;
+
+    display: block;
+
+}
+
+
+
+.distribuidor-banner,
+
+.distribuidor-banner .container .row {
+
+    height: 200px;
+
+}
+
+
+
+.db-titulo,
+
+.db-enlaces {
+
+    text-transform: uppercase;
+
+    color: #fff;
+
+}
+
+
+
+.db-titulo h3,
+
+.db-titulo p{
+
+    font-weight: lighter;
+
+}
+
+
+
+.db-titulo h3 {
+
+    font-size: 36px;
+
+}
+
+
+
+.db-titulo p {
+
+    font-size: 22px;
+
+}
+
+
+
+.distribuidor-banner-btn {
+
+    color: #fff;
+
+    background: #DF1D19;
+
+    height: 50px;
+
+    line-height: 50px;
+
+    transition: .3s all;
+
+    padding-left: 25px;
+
+    padding-right: 20px;
+
+    text-align: center;
+
+    font-weight: lighter;
+
+}
+
+
+
+.distribuidor-banner-btn:nth-child(2) {
+
+    margin-left: 25px;
+
+}
+
+
+
+.distribuidor-banner-btn:hover {
+
+    background: #8B0000;
+
+    color: #fff;
+
+    text-decoration: none;
+
+}
+
+
+
+.distribuidor-banner-btn:active {
+
+    text-decoration: none;
+
+    color: #fff;
+
+}
+
+
+
+@media (max-width: 575px) {
+
+    .distribuidor-banner {
+
+        padding-top: 2.5em;
+
+        padding-bottom: 2.5em;
+
+        height: 420px;
+
+    }
+
+    .db-titulo h3 {
+
+        font-size: 50px;
+
+    }
+
+
+
+    .db-titulo-mensaje {
+
+        font-size: 32px;
+
+        font-weight: lighter;
+
+        margin-top: 1em;
+
+    }
+
+
+
+    .distribuidor-banner-btn {
+
+        display: block;
+
+    }
+
+
+
+    .distribuidor-banner-btn:nth-child(2) {
+
+        margin-left: 0;
+
+        margin-top: 1em;
+
+    }
+
+
+
+    .dist-middle-img img {
+
+        padding-top: 3em;
+
+        padding-bottom: 3em;
+
+    }
+
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .distribuidor-banner,
+
+    .distribuidor-banner .container .row {
+
+        height: 350px;
+
+    }
+
+
+
+    .distribuidor-banner-btn {
+
+        display: block;
+
+    }
+
+
+
+    .distribuidor-banner-btn:nth-child(2) {
+
+        margin-left: 0;
+
+        margin-top: 1em;
+
+    }
+
+
+
+    .dist-middle-img img {
+
+        padding-top: 3em;
+
+        padding-bottom: 3em;
+
+    }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .distribuidor-banner,
+
+    .distribuidor-banner .container .row {
+
+        height: 250px;
+
+    }
+
+
+
+    .distribuidor-banner-btn {
+
+        display: block;
+
+    }
+
+
+
+    .distribuidor-banner-btn:nth-child(2) {
+
+        margin-left: 0;
+
+        margin-top: 1em;
+
+    }
+
+
+
+    .db-titulo-mensaje {
+
+        font-size: 32px;
+
+        font-weight: lighter;
+
+        margin-top: 1em;
+
+    }
+
+
+
+    .distribuidor-banner-btn {
+
+        display: block;
+
+    }
+
+
+
+    .distribuidor-banner-btn:nth-child(2) {
+
+        margin-left: 0;
+
+        margin-top: 1em;
+
+    }
+
+
+
+    .db-titulo-mensaje {
+
+        font-size: 32px;
+
+        font-weight: lighter;
+
+        margin-top: 1em;
+
+    }
+
+
+
+    .dist-middle-img img {
+
+        width: 70%;
+
+        display: block;
+
+        margin: auto;
+
+        padding-top: 3em;
+
+        padding-bottom: 3em;
+
+    }
+
+}
+
+
+
+.dist-mensaje p {
+
+    font-weight: lighter;
+
+}
+
+
+
+.form-dist {
+
+    margin-bottom: 4em;
+
+}
+
+
+
+.bgs-gray {
+
+    background: #F2F2F2;
+
+    padding-top: 1em;
+
+    padding-bottom: 1em;
+
+}
+
+
+
+.form-dist-title {
+
+    color: #000;
+
+    font-weight: normal;
+
+}
+
+
+
+.dist-label {
+
+    font-weight: lighter;
+
+    text-transform: uppercase;
+
+    display: block;
+
+    font-size: 20px;
+
+    margin-bottom: 4px;
+
+}
+
+
+
+.dist-slc {
+
+    width: 100%;
+
+    padding: 6px 6px;
+
+    font-weight: lighter;
+
+    background: transparent;
+
+    -webkit-appearance: none;
+
+    -moz-appearance: none;
+
+    appearance: none;
+
+    position: relative;
+
+    outline: none;
+
+}
+
+
+
+.dist-slc-cont {
+
+    width: 100%;
+
+}
+
+
+
+.dist-slc-cont:after {
+
+    font-family: 'FontAwesome';
+
+    content: '\f107';
+
+    /*margin: 0 3px 0 -15px;*/
+
+    color: #000;
+
+    position: absolute;
+
+    top: 43%;
+
+    right: 28px;
+
+    font-size: 1.5em;
+
+    z-index: 9999999;
+
+    pointer-events: none;
+
+    box-sizing: border-box;   
+
+}
+
+
+
+.dist-form {
+
+    width: 100%;
+
+    padding: 6px 6px;
+
+    font-weight: lighter;
+
+    text-align: left;
+
+}
+
+
+
+.cont-dist-ta {
+
+    margin-top: 1em;
+
+}
+
+
+
+.cont-dist {
+
+    margin-bottom: 1em;
+
+}
+
+
+
+.dist-ta {
+
+    height: 102px;
+
+}
+
+
+
+.form-footer {
+
+    margin-top: 2em;
+
+}
+
+
+
+.dist-btn {
+
+    text-transform: uppercase;
+
+    color: #fff;
+
+    font-weight: lighter;
+
+    border: none;
+
+    background: #DF1D19;
+
+    height: 50px;
+
+    width: 364px;
+
+    font-size: 19px;
+
+}
+
+
+
+.dist-btn:hover {
+
+    background: #8B0000;
+
+}
+
+
+
+@media (max-width: 766px) {
+
+    .bgs-gray {
+
+        padding-top: 20px;
+
+        padding-bottom: 20px;
+
+    }
+
+
+
+    .g-form {
+
+        margin-bottom: 1em;
+
+    }
+
+
+
+    .dist-btn {
+
+        width: 100%;
+
+    }
+
+}
+
+
+
+@media (min-width: 767px) and (max-width: 992) {
+
+    .bgs-gray {
+
+        height: 200px;
+
+        padding-top: 40px;
+
+        padding-bottom: 40px;
+
+    }
+
+
+
+    .row-dist {
+
+        height: 200px;
+
+    }
+
+}
+
+/* Industria */
+
+.bg_b3b3b2 {
+
+    background-color: #b3b3b2;
+
+}
+
+.color-inh {
+
+    color: inherit;
+
+}
+
+.color-orange {
+
+    color: #e6623c;
+
+}
+
+.text-decoration-none {
+
+    text-decoration: none !important;
+
+}
+
+.header-industria {
+
+    background: url('../img/industrial/industria1.jpg') no-repeat center;
+
+    background-size: cover;
+
+    position: relative;
+
+}
+
+.header-industria::after,
+
+.banner_pacom::after {
+
+    content: "";
+
+    position: absolute;
+
+    height: 100%;
+
+    width: 100%;
+
+    bottom: 0;
+
+    background: rgba(0, 0, 0, 0.6);
+
+}
+
+.header-industria .breadcrumb,
+
+.header-industria .header-industria-title,
+
+.header-industria .header-industria-img,
+
+.banner_pacom .pacom-text {
+
+    z-index: 9;
+
+}
+
+.header-industria .breadcrumb {
+
+    font-size: 80%;
+
+}
+
+.header-industria-productos {
+
+    background: url('../img/distribuidores-images/dist-banner.png') no-repeat center;
+
+    background-size: cover;
+
+}
+
+.header-industria-productos::after {
+
+    background: rgba(10,71,134, .8);
+
+}
+
+.banner_pacom {
+
+    background: url('../img/industrial/industria3.jpg') no-repeat center;
+
+    background-size: cover;
+
+}
+
+#carouselCatalogos small {
+
+    font-size: 11px;
+
+}
+
+#carouselIndustrias img {
+
+    max-width: 50px;
+
+    margin: 0 auto;
+
+}
+
+.btn-custom-orange {
+
+    background-color: #e6623c;
+
+    border-color: #C84018;
+
+    border-radius: 0;
+
+    color: #fff;
+
+}
+
+.btn-custom-orange:hover, .btn-custom-orange:active {
+
+    background-color: #C84018;
+
+    border-color: #e6623c;
+
+    color: #fff;
+
+}
+
+a.color-orange:hover {
+
+    color: #C84018;
+
+}
+
+.text-container {
+
+    max-width: 680px;
+
+    margin: 0 auto;
+
+}
+
+#carouselIndustrias + .nbs-flexisel-nav-left,
+
+#carouselCatalogos + .nbs-flexisel-nav-left {
+
+    left: 9px;
+
+}
+
+#carouselIndustrias ~ .nbs-flexisel-nav-right, 
+
+#carouselCatalogos ~ .nbs-flexisel-nav-right {
+
+    right: 9px;
+
+}
+
+.industria-info-banner h6 {
+
+    font-size: 20px;
+
 }
